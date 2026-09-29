@@ -1,0 +1,1001 @@
+cliente_id,nome,idade,cidade,uf,renda_mensal,ativo,score
+1,Cliente_0001,25,Belo Horizonte,MG,1912.68,True,550
+2,Cliente_0002,26,Recife,PE,13651.78,True,904
+3,Cliente_0003,20,São Paulo,SP,1991.65,True,538
+4,Cliente_0004,56,Rio de Janeiro,RJ,1937.84,True,965
+5,Cliente_0005,52,Belo Horizonte,MG,8422.08,False,903
+6,Cliente_0006,69,Fortaleza,CE,15843.46,True,732
+7,Cliente_0007,35,Fortaleza,CE,4065.41,True,404
+8,Cliente_0008,42,Salvador,BA,3095.82,True,918
+9,Cliente_0009,69,Fortaleza,CE,2216.93,False,849
+10,Cliente_0010,42,Salvador,BA,2800.2,True,943
+11,Cliente_0011,74,Rio de Janeiro,RJ,15718.16,True,371
+12,Cliente_0012,60,Salvador,BA,5260.32,True,381
+13,Cliente_0013,73,Recife,PE,3166.52,True,764
+14,Cliente_0014,71,Belo Horizonte,MG,7519.73,True,663
+15,Cliente_0015,60,Recife,PE,5905.13,True,923
+16,Cliente_0016,28,Belo Horizonte,MG,10313.31,True,467
+17,Cliente_0017,42,São Paulo,SP,5954.14,True,632
+18,Cliente_0018,32,Salvador,BA,15059.74,True,710
+19,Cliente_0019,22,Fortaleza,CE,4981.22,True,517
+20,Cliente_0020,49,Belo Horizonte,MG,8027.93,False,446
+21,Cliente_0021,26,Fortaleza,CE,5569.35,True,898
+22,Cliente_0022,75,São Paulo,SP,11128.29,True,524
+23,Cliente_0023,50,Recife,PE,9643.01,True,412
+24,Cliente_0024,58,Recife,PE,4139.7,False,910
+25,Cliente_0025,42,Salvador,BA,7796.72,False,841
+26,Cliente_0026,53,Fortaleza,CE,15702.87,True,996
+27,Cliente_0027,25,Belo Horizonte,MG,12748.22,True,956
+28,Cliente_0028,25,Fortaleza,CE,6342.75,True,764
+29,Cliente_0029,64,Salvador,BA,15951.57,True,812
+30,Cliente_0030,50,Recife,PE,16558.36,True,954
+31,Cliente_0031,56,Rio de Janeiro,RJ,4782.03,True,465
+32,Cliente_0032,67,Rio de Janeiro,RJ,16720.16,True,913
+33,Cliente_0033,49,Fortaleza,CE,1821.37,True,614
+34,Cliente_0034,21,Recife,PE,5474.38,True,387
+35,Cliente_0035,49,Belo Horizonte,MG,14964.38,True,431
+36,Cliente_0036,48,Belo Horizonte,MG,17123.0,True,571
+37,Cliente_0037,73,Rio de Janeiro,RJ,11508.8,True,852
+38,Cliente_0038,62,Belo Horizonte,MG,4818.99,True,708
+39,Cliente_0039,59,Belo Horizonte,MG,7661.44,False,423
+40,Cliente_0040,32,Recife,PE,2556.43,True,902
+41,Cliente_0041,32,Rio de Janeiro,RJ,11209.26,True,372
+42,Cliente_0042,58,Belo Horizonte,MG,2471.42,True,332
+43,Cliente_0043,22,Fortaleza,CE,9983.58,True,985
+44,Cliente_0044,31,São Paulo,SP,10397.36,False,548
+45,Cliente_0045,69,São Paulo,SP,8216.49,True,399
+46,Cliente_0046,45,Belo Horizonte,MG,7345.91,False,778
+47,Cliente_0047,21,Belo Horizonte,MG,12610.52,True,362
+48,Cliente_0048,64,São Paulo,SP,7098.49,True,554
+49,Cliente_0049,30,Recife,PE,10348.71,True,732
+50,Cliente_0050,35,Recife,PE,9133.36,True,753
+51,Cliente_0051,24,Rio de Janeiro,RJ,2334.71,True,395
+52,Cliente_0052,28,Recife,PE,8205.83,False,518
+53,Cliente_0053,75,São Paulo,SP,2467.48,False,302
+54,Cliente_0054,34,São Paulo,SP,16787.55,False,592
+55,Cliente_0055,62,São Paulo,SP,17295.74,False,458
+56,Cliente_0056,36,Recife,PE,5092.06,True,893
+57,Cliente_0057,52,Belo Horizonte,MG,2505.8,True,358
+58,Cliente_0058,55,Salvador,BA,9367.01,True,358
+59,Cliente_0059,23,Rio de Janeiro,RJ,15547.15,True,909
+60,Cliente_0060,61,Salvador,BA,15720.02,False,422
+61,Cliente_0061,33,Rio de Janeiro,RJ,11052.16,True,934
+62,Cliente_0062,44,Salvador,BA,12346.66,True,567
+63,Cliente_0063,60,Recife,PE,13317.16,True,571
+64,Cliente_0064,26,São Paulo,SP,12582.89,True,768
+65,Cliente_0065,66,Fortaleza,CE,16939.62,True,769
+66,Cliente_0066,54,Rio de Janeiro,RJ,17935.59,True,850
+67,Cliente_0067,50,Recife,PE,5875.81,True,370
+68,Cliente_0068,41,Recife,PE,6202.29,False,856
+69,Cliente_0069,37,Belo Horizonte,MG,11592.68,True,983
+70,Cliente_0070,37,Rio de Janeiro,RJ,16873.97,True,437
+71,Cliente_0071,25,Fortaleza,CE,16180.26,True,578
+72,Cliente_0072,56,Fortaleza,CE,4975.39,True,508
+73,Cliente_0073,58,Belo Horizonte,MG,15573.06,False,557
+74,Cliente_0074,23,Salvador,BA,11965.69,True,345
+75,Cliente_0075,39,Salvador,BA,14223.47,True,465
+76,Cliente_0076,46,Belo Horizonte,MG,10602.73,False,874
+77,Cliente_0077,25,Salvador,BA,2741.52,True,858
+78,Cliente_0078,71,Salvador,BA,7592.06,True,740
+79,Cliente_0079,20,Recife,PE,6586.26,True,666
+80,Cliente_0080,61,Recife,PE,5617.24,True,662
+81,Cliente_0081,74,Rio de Janeiro,RJ,15932.76,True,542
+82,Cliente_0082,69,Recife,PE,14877.73,False,325
+83,Cliente_0083,65,Recife,PE,16754.04,False,985
+84,Cliente_0084,69,Belo Horizonte,MG,5594.76,True,410
+85,Cliente_0085,73,São Paulo,SP,2138.96,False,527
+86,Cliente_0086,70,Recife,PE,16654.46,True,612
+87,Cliente_0087,32,Recife,PE,1890.46,True,708
+88,Cliente_0088,35,Fortaleza,CE,15761.82,True,659
+89,Cliente_0089,50,Belo Horizonte,MG,8094.69,True,328
+90,Cliente_0090,74,Salvador,BA,17511.61,True,894
+91,Cliente_0091,20,Fortaleza,CE,3288.64,False,653
+92,Cliente_0092,68,Belo Horizonte,MG,6675.68,True,694
+93,Cliente_0093,30,Rio de Janeiro,RJ,5702.92,False,301
+94,Cliente_0094,69,Rio de Janeiro,RJ,10384.46,True,672
+95,Cliente_0095,22,São Paulo,SP,17156.43,True,938
+96,Cliente_0096,60,Fortaleza,CE,15492.25,True,819
+97,Cliente_0097,60,Fortaleza,CE,8238.48,False,602
+98,Cliente_0098,26,Rio de Janeiro,RJ,4665.36,False,993
+99,Cliente_0099,75,Belo Horizonte,MG,4371.45,True,715
+100,Cliente_0100,71,Rio de Janeiro,RJ,1506.7,True,515
+101,Cliente_0101,68,São Paulo,SP,11069.75,True,776
+102,Cliente_0102,46,São Paulo,SP,12647.85,False,473
+103,Cliente_0103,23,Belo Horizonte,MG,6182.48,True,395
+104,Cliente_0104,61,Recife,PE,6621.92,True,450
+105,Cliente_0105,20,Salvador,BA,5539.9,False,925
+106,Cliente_0106,47,Salvador,BA,8338.28,True,693
+107,Cliente_0107,43,São Paulo,SP,5525.74,True,409
+108,Cliente_0108,32,São Paulo,SP,4402.13,False,351
+109,Cliente_0109,33,Rio de Janeiro,RJ,16638.26,True,767
+110,Cliente_0110,69,Recife,PE,9166.61,True,753
+111,Cliente_0111,70,Rio de Janeiro,RJ,13368.02,False,861
+112,Cliente_0112,75,São Paulo,SP,4126.11,False,760
+113,Cliente_0113,66,Fortaleza,CE,5579.46,True,833
+114,Cliente_0114,58,São Paulo,SP,5447.56,False,379
+115,Cliente_0115,36,Belo Horizonte,MG,5369.14,True,627
+116,Cliente_0116,23,Rio de Janeiro,RJ,3783.17,True,692
+117,Cliente_0117,27,Belo Horizonte,MG,13155.92,True,724
+118,Cliente_0118,39,São Paulo,SP,10453.08,False,363
+119,Cliente_0119,71,Recife,PE,8432.37,True,889
+120,Cliente_0120,48,São Paulo,SP,1597.29,True,605
+121,Cliente_0121,72,São Paulo,SP,16212.09,False,851
+122,Cliente_0122,65,Belo Horizonte,MG,10511.18,True,799
+123,Cliente_0123,35,Recife,PE,8691.29,True,698
+124,Cliente_0124,60,Fortaleza,CE,12705.84,False,469
+125,Cliente_0125,26,São Paulo,SP,17681.91,True,703
+126,Cliente_0126,54,Rio de Janeiro,RJ,12439.5,True,958
+127,Cliente_0127,26,São Paulo,SP,15803.05,True,351
+128,Cliente_0128,42,Fortaleza,CE,6901.32,False,634
+129,Cliente_0129,66,Fortaleza,CE,16014.06,True,731
+130,Cliente_0130,71,Fortaleza,CE,2851.45,True,852
+131,Cliente_0131,40,Salvador,BA,5199.67,True,967
+132,Cliente_0132,66,Salvador,BA,2011.99,True,504
+133,Cliente_0133,57,Salvador,BA,4014.31,True,784
+134,Cliente_0134,25,Belo Horizonte,MG,10805.5,True,776
+135,Cliente_0135,34,Belo Horizonte,MG,14153.82,True,920
+136,Cliente_0136,65,Rio de Janeiro,RJ,13352.89,True,618
+137,Cliente_0137,55,Salvador,BA,1923.69,True,889
+138,Cliente_0138,42,Belo Horizonte,MG,8044.8,True,377
+139,Cliente_0139,62,Rio de Janeiro,RJ,15204.43,True,404
+140,Cliente_0140,67,Belo Horizonte,MG,6476.11,True,879
+141,Cliente_0141,40,Salvador,BA,10290.3,True,370
+142,Cliente_0142,59,Rio de Janeiro,RJ,7130.31,False,801
+143,Cliente_0143,45,Salvador,BA,17352.99,False,456
+144,Cliente_0144,29,São Paulo,SP,13607.62,True,930
+145,Cliente_0145,67,Rio de Janeiro,RJ,9477.71,False,906
+146,Cliente_0146,38,Fortaleza,CE,15553.27,True,585
+147,Cliente_0147,33,São Paulo,SP,13882.86,False,644
+148,Cliente_0148,49,Salvador,BA,15540.72,True,799
+149,Cliente_0149,40,Recife,PE,14664.23,True,586
+150,Cliente_0150,62,Rio de Janeiro,RJ,16021.77,True,829
+151,Cliente_0151,23,Recife,PE,5482.37,False,800
+152,Cliente_0152,66,Rio de Janeiro,RJ,5465.34,False,961
+153,Cliente_0153,49,Belo Horizonte,MG,8894.88,True,395
+154,Cliente_0154,32,Fortaleza,CE,8172.62,True,613
+155,Cliente_0155,55,Belo Horizonte,MG,7588.84,True,735
+156,Cliente_0156,53,Belo Horizonte,MG,6958.06,False,577
+157,Cliente_0157,34,Fortaleza,CE,5303.88,True,623
+158,Cliente_0158,65,Salvador,BA,10341.76,True,496
+159,Cliente_0159,65,Recife,PE,9489.28,True,402
+160,Cliente_0160,36,Recife,PE,5253.47,True,609
+161,Cliente_0161,63,Salvador,BA,10313.23,True,346
+162,Cliente_0162,53,Salvador,BA,6320.25,True,953
+163,Cliente_0163,24,São Paulo,SP,15899.88,True,780
+164,Cliente_0164,46,São Paulo,SP,7121.65,True,558
+165,Cliente_0165,25,São Paulo,SP,15064.91,False,803
+166,Cliente_0166,54,Salvador,BA,11885.85,True,455
+167,Cliente_0167,69,Recife,PE,10786.85,True,387
+168,Cliente_0168,25,Recife,PE,10708.21,False,920
+169,Cliente_0169,68,Rio de Janeiro,RJ,11703.9,False,761
+170,Cliente_0170,37,São Paulo,SP,15692.75,False,612
+171,Cliente_0171,57,Rio de Janeiro,RJ,2493.8,True,512
+172,Cliente_0172,31,Belo Horizonte,MG,5866.66,True,460
+173,Cliente_0173,29,Recife,PE,10607.87,True,302
+174,Cliente_0174,46,São Paulo,SP,12874.62,False,598
+175,Cliente_0175,32,Salvador,BA,6253.73,True,764
+176,Cliente_0176,61,Salvador,BA,5351.49,True,940
+177,Cliente_0177,60,Rio de Janeiro,RJ,14764.44,True,735
+178,Cliente_0178,52,Salvador,BA,5209.36,True,572
+179,Cliente_0179,22,Recife,PE,2484.03,True,909
+180,Cliente_0180,70,Belo Horizonte,MG,10891.92,True,749
+181,Cliente_0181,47,Salvador,BA,12863.19,False,578
+182,Cliente_0182,52,Rio de Janeiro,RJ,9647.62,True,912
+183,Cliente_0183,74,Salvador,BA,8628.47,True,918
+184,Cliente_0184,19,Fortaleza,CE,3006.89,True,988
+185,Cliente_0185,54,Fortaleza,CE,2163.82,True,781
+186,Cliente_0186,59,Rio de Janeiro,RJ,8796.79,True,485
+187,Cliente_0187,45,Rio de Janeiro,RJ,11973.95,False,393
+188,Cliente_0188,40,São Paulo,SP,8237.74,True,986
+189,Cliente_0189,72,Salvador,BA,4153.61,False,807
+190,Cliente_0190,60,Fortaleza,CE,17095.69,True,765
+191,Cliente_0191,38,Salvador,BA,5664.58,True,713
+192,Cliente_0192,70,Rio de Janeiro,RJ,17803.97,False,723
+193,Cliente_0193,30,Salvador,BA,10054.25,False,940
+194,Cliente_0194,66,São Paulo,SP,2351.59,True,862
+195,Cliente_0195,36,Recife,PE,8728.92,False,424
+196,Cliente_0196,58,Salvador,BA,11546.38,True,462
+197,Cliente_0197,53,Fortaleza,CE,1725.63,False,395
+198,Cliente_0198,71,Recife,PE,16563.34,False,420
+199,Cliente_0199,71,Belo Horizonte,MG,4040.52,True,821
+200,Cliente_0200,35,Belo Horizonte,MG,8355.59,False,783
+201,Cliente_0201,47,Recife,PE,10595.87,False,495
+202,Cliente_0202,50,Rio de Janeiro,RJ,13813.83,True,371
+203,Cliente_0203,67,Fortaleza,CE,14535.1,False,648
+204,Cliente_0204,35,Rio de Janeiro,RJ,15039.07,True,605
+205,Cliente_0205,55,Rio de Janeiro,RJ,17981.89,False,452
+206,Cliente_0206,52,São Paulo,SP,9491.63,True,865
+207,Cliente_0207,42,Rio de Janeiro,RJ,9013.19,True,493
+208,Cliente_0208,33,Belo Horizonte,MG,10934.66,True,720
+209,Cliente_0209,38,Salvador,BA,13787.64,False,695
+210,Cliente_0210,68,Belo Horizonte,MG,15042.33,True,807
+211,Cliente_0211,26,Salvador,BA,9787.8,True,402
+212,Cliente_0212,24,São Paulo,SP,10178.19,False,315
+213,Cliente_0213,27,Belo Horizonte,MG,8264.65,True,376
+214,Cliente_0214,68,São Paulo,SP,17491.86,True,938
+215,Cliente_0215,43,Belo Horizonte,MG,12222.3,True,990
+216,Cliente_0216,42,Rio de Janeiro,RJ,17243.3,False,854
+217,Cliente_0217,57,Salvador,BA,2628.94,True,532
+218,Cliente_0218,23,Belo Horizonte,MG,8660.53,True,948
+219,Cliente_0219,73,Belo Horizonte,MG,3158.37,True,606
+220,Cliente_0220,20,Salvador,BA,6852.18,True,600
+221,Cliente_0221,41,Fortaleza,CE,8606.33,True,843
+222,Cliente_0222,54,São Paulo,SP,12749.71,True,474
+223,Cliente_0223,23,Recife,PE,11556.61,False,934
+224,Cliente_0224,33,Belo Horizonte,MG,9711.51,True,537
+225,Cliente_0225,58,São Paulo,SP,5690.63,True,982
+226,Cliente_0226,75,Salvador,BA,14776.45,True,993
+227,Cliente_0227,28,Rio de Janeiro,RJ,2718.72,True,901
+228,Cliente_0228,58,Fortaleza,CE,17373.48,True,767
+229,Cliente_0229,30,Fortaleza,CE,17989.66,False,409
+230,Cliente_0230,42,Recife,PE,10936.72,True,602
+231,Cliente_0231,71,Salvador,BA,12360.79,True,308
+232,Cliente_0232,73,Rio de Janeiro,RJ,12815.69,True,920
+233,Cliente_0233,49,Belo Horizonte,MG,15241.84,True,535
+234,Cliente_0234,69,Rio de Janeiro,RJ,7313.3,True,935
+235,Cliente_0235,61,Fortaleza,CE,13967.03,True,943
+236,Cliente_0236,75,Salvador,BA,11853.06,True,616
+237,Cliente_0237,20,São Paulo,SP,11062.97,True,392
+238,Cliente_0238,38,Fortaleza,CE,13833.43,True,505
+239,Cliente_0239,68,Recife,PE,10400.23,True,843
+240,Cliente_0240,35,Rio de Janeiro,RJ,15202.8,True,793
+241,Cliente_0241,65,Fortaleza,CE,15861.55,True,779
+242,Cliente_0242,27,Salvador,BA,13943.5,True,992
+243,Cliente_0243,61,Belo Horizonte,MG,17669.05,True,392
+244,Cliente_0244,18,São Paulo,SP,5863.57,True,765
+245,Cliente_0245,61,Fortaleza,CE,13858.69,True,898
+246,Cliente_0246,70,São Paulo,SP,12036.06,True,410
+247,Cliente_0247,32,Belo Horizonte,MG,9279.37,True,924
+248,Cliente_0248,59,Recife,PE,2543.08,False,609
+249,Cliente_0249,44,Belo Horizonte,MG,3425.15,True,338
+250,Cliente_0250,49,Fortaleza,CE,3415.99,True,850
+251,Cliente_0251,42,Recife,PE,8985.12,False,901
+252,Cliente_0252,64,Belo Horizonte,MG,4049.63,False,970
+253,Cliente_0253,71,Salvador,BA,9574.23,False,586
+254,Cliente_0254,62,Salvador,BA,7613.74,False,755
+255,Cliente_0255,72,Recife,PE,7484.32,True,857
+256,Cliente_0256,40,Belo Horizonte,MG,2499.08,True,494
+257,Cliente_0257,72,Salvador,BA,15099.15,True,978
+258,Cliente_0258,59,Recife,PE,12051.63,True,351
+259,Cliente_0259,33,Fortaleza,CE,17815.54,True,370
+260,Cliente_0260,31,Rio de Janeiro,RJ,11175.32,True,636
+261,Cliente_0261,68,Recife,PE,16358.76,True,583
+262,Cliente_0262,26,Recife,PE,10413.56,True,412
+263,Cliente_0263,73,Belo Horizonte,MG,1925.37,True,666
+264,Cliente_0264,55,Recife,PE,6842.23,True,571
+265,Cliente_0265,26,Salvador,BA,13738.35,True,365
+266,Cliente_0266,46,São Paulo,SP,14337.28,True,762
+267,Cliente_0267,32,Rio de Janeiro,RJ,17099.36,True,974
+268,Cliente_0268,37,Rio de Janeiro,RJ,9057.7,True,362
+269,Cliente_0269,72,São Paulo,SP,8126.68,True,802
+270,Cliente_0270,46,Belo Horizonte,MG,2712.6,True,629
+271,Cliente_0271,27,Rio de Janeiro,RJ,2583.76,True,939
+272,Cliente_0272,55,Belo Horizonte,MG,10547.88,True,690
+273,Cliente_0273,51,Rio de Janeiro,RJ,6365.81,False,401
+274,Cliente_0274,25,Belo Horizonte,MG,15571.08,True,740
+275,Cliente_0275,74,São Paulo,SP,5270.14,True,764
+276,Cliente_0276,44,São Paulo,SP,13538.61,True,737
+277,Cliente_0277,60,Fortaleza,CE,5705.68,True,785
+278,Cliente_0278,23,Salvador,BA,15224.24,True,742
+279,Cliente_0279,65,Salvador,BA,13690.13,True,869
+280,Cliente_0280,55,Salvador,BA,17284.31,True,986
+281,Cliente_0281,44,Salvador,BA,7334.37,False,352
+282,Cliente_0282,56,Fortaleza,CE,6655.41,True,891
+283,Cliente_0283,31,Rio de Janeiro,RJ,4053.05,False,529
+284,Cliente_0284,40,Salvador,BA,15448.66,True,417
+285,Cliente_0285,54,Fortaleza,CE,5231.63,False,874
+286,Cliente_0286,57,Rio de Janeiro,RJ,12637.12,True,923
+287,Cliente_0287,71,Belo Horizonte,MG,12942.27,True,484
+288,Cliente_0288,62,Fortaleza,CE,14079.76,True,659
+289,Cliente_0289,29,Salvador,BA,15852.73,False,371
+290,Cliente_0290,65,Recife,PE,11947.34,True,393
+291,Cliente_0291,51,Belo Horizonte,MG,5049.69,False,764
+292,Cliente_0292,28,Fortaleza,CE,7605.88,True,881
+293,Cliente_0293,23,Rio de Janeiro,RJ,16075.15,True,461
+294,Cliente_0294,21,Rio de Janeiro,RJ,12620.48,True,753
+295,Cliente_0295,45,Belo Horizonte,MG,9513.42,False,724
+296,Cliente_0296,31,Fortaleza,CE,13956.56,True,653
+297,Cliente_0297,25,São Paulo,SP,6173.57,False,839
+298,Cliente_0298,37,Belo Horizonte,MG,2249.39,False,913
+299,Cliente_0299,18,Salvador,BA,4872.98,True,440
+300,Cliente_0300,36,Fortaleza,CE,6914.02,True,809
+301,Cliente_0301,45,Belo Horizonte,MG,4398.96,False,845
+302,Cliente_0302,32,Belo Horizonte,MG,9754.33,True,373
+303,Cliente_0303,73,São Paulo,SP,13743.68,False,319
+304,Cliente_0304,22,São Paulo,SP,15724.82,False,887
+305,Cliente_0305,63,São Paulo,SP,12062.34,True,417
+306,Cliente_0306,19,São Paulo,SP,17442.29,True,932
+307,Cliente_0307,71,São Paulo,SP,12878.57,True,390
+308,Cliente_0308,72,São Paulo,SP,3246.74,False,903
+309,Cliente_0309,51,São Paulo,SP,2797.68,True,647
+310,Cliente_0310,39,Recife,PE,14355.44,True,822
+311,Cliente_0311,25,Belo Horizonte,MG,10254.98,True,657
+312,Cliente_0312,64,Fortaleza,CE,17310.69,True,541
+313,Cliente_0313,27,Salvador,BA,5723.48,True,916
+314,Cliente_0314,66,Recife,PE,14026.01,True,481
+315,Cliente_0315,49,Belo Horizonte,MG,9155.23,False,997
+316,Cliente_0316,59,Rio de Janeiro,RJ,11982.42,True,942
+317,Cliente_0317,27,Fortaleza,CE,8756.09,False,752
+318,Cliente_0318,37,Belo Horizonte,MG,14639.44,True,660
+319,Cliente_0319,22,Rio de Janeiro,RJ,6621.73,False,338
+320,Cliente_0320,41,Salvador,BA,15222.99,True,960
+321,Cliente_0321,57,Salvador,BA,11302.32,False,773
+322,Cliente_0322,53,Rio de Janeiro,RJ,17244.82,True,760
+323,Cliente_0323,59,Rio de Janeiro,RJ,4605.95,False,813
+324,Cliente_0324,21,Recife,PE,8933.63,True,386
+325,Cliente_0325,59,Rio de Janeiro,RJ,4347.22,True,748
+326,Cliente_0326,51,São Paulo,SP,10125.34,True,672
+327,Cliente_0327,36,Fortaleza,CE,7892.37,True,995
+328,Cliente_0328,21,Rio de Janeiro,RJ,14522.24,True,367
+329,Cliente_0329,24,Fortaleza,CE,10706.39,False,590
+330,Cliente_0330,64,Fortaleza,CE,15550.84,True,641
+331,Cliente_0331,55,Salvador,BA,12449.6,True,617
+332,Cliente_0332,62,Belo Horizonte,MG,12425.23,True,909
+333,Cliente_0333,23,Belo Horizonte,MG,6608.1,False,958
+334,Cliente_0334,70,Fortaleza,CE,3608.6,True,961
+335,Cliente_0335,45,Belo Horizonte,MG,9890.06,True,671
+336,Cliente_0336,29,Fortaleza,CE,17194.29,True,797
+337,Cliente_0337,32,Recife,PE,17999.61,True,379
+338,Cliente_0338,72,Fortaleza,CE,14503.98,True,977
+339,Cliente_0339,74,Fortaleza,CE,14144.08,True,911
+340,Cliente_0340,27,São Paulo,SP,4177.08,True,748
+341,Cliente_0341,44,Salvador,BA,7510.94,True,754
+342,Cliente_0342,36,Rio de Janeiro,RJ,13914.45,False,539
+343,Cliente_0343,33,Rio de Janeiro,RJ,6606.22,False,498
+344,Cliente_0344,61,Fortaleza,CE,17127.65,False,772
+345,Cliente_0345,67,Fortaleza,CE,7800.9,False,465
+346,Cliente_0346,69,Recife,PE,11476.95,True,353
+347,Cliente_0347,48,Belo Horizonte,MG,15922.93,True,828
+348,Cliente_0348,36,Salvador,BA,2883.94,True,579
+349,Cliente_0349,75,São Paulo,SP,9970.32,False,393
+350,Cliente_0350,70,Recife,PE,8943.61,True,327
+351,Cliente_0351,21,São Paulo,SP,8041.49,True,541
+352,Cliente_0352,23,São Paulo,SP,7686.06,True,626
+353,Cliente_0353,71,Salvador,BA,13292.62,True,449
+354,Cliente_0354,20,Recife,PE,6233.51,False,442
+355,Cliente_0355,48,Belo Horizonte,MG,8901.92,True,381
+356,Cliente_0356,34,Salvador,BA,5058.3,True,861
+357,Cliente_0357,56,Belo Horizonte,MG,10208.23,True,595
+358,Cliente_0358,37,Recife,PE,3510.5,True,729
+359,Cliente_0359,68,Belo Horizonte,MG,11776.37,True,413
+360,Cliente_0360,56,São Paulo,SP,10344.89,True,447
+361,Cliente_0361,45,Fortaleza,CE,1525.81,True,546
+362,Cliente_0362,44,Rio de Janeiro,RJ,4590.68,True,836
+363,Cliente_0363,22,Fortaleza,CE,17231.16,True,699
+364,Cliente_0364,20,São Paulo,SP,11988.57,True,559
+365,Cliente_0365,19,Belo Horizonte,MG,7392.05,True,653
+366,Cliente_0366,64,Recife,PE,12342.22,True,895
+367,Cliente_0367,66,Belo Horizonte,MG,6986.56,True,660
+368,Cliente_0368,39,Rio de Janeiro,RJ,14922.9,True,775
+369,Cliente_0369,48,Belo Horizonte,MG,11923.64,True,364
+370,Cliente_0370,67,Belo Horizonte,MG,17069.48,True,600
+371,Cliente_0371,20,Recife,PE,14553.3,True,623
+372,Cliente_0372,50,Fortaleza,CE,8070.7,False,559
+373,Cliente_0373,66,Salvador,BA,12173.86,True,665
+374,Cliente_0374,73,Salvador,BA,12319.57,True,427
+375,Cliente_0375,45,Fortaleza,CE,16176.53,False,695
+376,Cliente_0376,29,Fortaleza,CE,9687.35,False,676
+377,Cliente_0377,35,Rio de Janeiro,RJ,14718.94,False,380
+378,Cliente_0378,56,São Paulo,SP,17919.12,True,858
+379,Cliente_0379,38,Fortaleza,CE,3192.87,True,976
+380,Cliente_0380,37,Fortaleza,CE,8857.61,False,470
+381,Cliente_0381,46,Belo Horizonte,MG,7300.53,True,661
+382,Cliente_0382,45,Rio de Janeiro,RJ,6030.16,True,376
+383,Cliente_0383,58,Belo Horizonte,MG,8202.47,True,331
+384,Cliente_0384,72,Recife,PE,11524.95,False,335
+385,Cliente_0385,22,Recife,PE,5393.92,True,670
+386,Cliente_0386,54,São Paulo,SP,2034.36,True,995
+387,Cliente_0387,41,São Paulo,SP,7638.22,True,887
+388,Cliente_0388,51,Recife,PE,7554.67,True,965
+389,Cliente_0389,33,Fortaleza,CE,17348.58,True,490
+390,Cliente_0390,51,São Paulo,SP,7885.29,True,568
+391,Cliente_0391,63,Fortaleza,CE,8863.51,True,802
+392,Cliente_0392,25,Recife,PE,3739.52,True,762
+393,Cliente_0393,75,Recife,PE,13270.6,True,998
+394,Cliente_0394,60,Fortaleza,CE,7232.52,True,863
+395,Cliente_0395,36,Rio de Janeiro,RJ,16206.97,True,953
+396,Cliente_0396,68,Recife,PE,7464.62,True,424
+397,Cliente_0397,68,Recife,PE,3791.47,False,326
+398,Cliente_0398,53,Fortaleza,CE,10942.58,False,864
+399,Cliente_0399,57,Recife,PE,16090.07,True,616
+400,Cliente_0400,63,São Paulo,SP,13361.35,False,719
+401,Cliente_0401,22,Rio de Janeiro,RJ,3567.89,True,957
+402,Cliente_0402,46,Salvador,BA,9186.25,True,431
+403,Cliente_0403,58,Rio de Janeiro,RJ,11198.47,True,743
+404,Cliente_0404,73,Rio de Janeiro,RJ,2414.31,True,830
+405,Cliente_0405,37,Recife,PE,4216.84,True,530
+406,Cliente_0406,51,Fortaleza,CE,16266.28,True,556
+407,Cliente_0407,58,Recife,PE,17279.8,True,428
+408,Cliente_0408,37,Belo Horizonte,MG,11638.07,True,814
+409,Cliente_0409,28,Belo Horizonte,MG,11264.84,True,475
+410,Cliente_0410,57,Belo Horizonte,MG,13390.44,True,877
+411,Cliente_0411,70,Salvador,BA,15752.39,True,346
+412,Cliente_0412,67,Belo Horizonte,MG,11016.73,True,885
+413,Cliente_0413,57,São Paulo,SP,12043.35,False,942
+414,Cliente_0414,36,Rio de Janeiro,RJ,12091.47,True,794
+415,Cliente_0415,69,Recife,PE,14821.26,False,604
+416,Cliente_0416,22,São Paulo,SP,12862.12,True,750
+417,Cliente_0417,48,São Paulo,SP,9163.3,True,921
+418,Cliente_0418,38,Recife,PE,15714.5,True,653
+419,Cliente_0419,26,São Paulo,SP,14050.97,True,626
+420,Cliente_0420,47,Recife,PE,3521.61,False,553
+421,Cliente_0421,24,Recife,PE,2334.99,False,930
+422,Cliente_0422,33,São Paulo,SP,17384.32,True,635
+423,Cliente_0423,64,Rio de Janeiro,RJ,6659.8,True,810
+424,Cliente_0424,47,Rio de Janeiro,RJ,9729.54,True,809
+425,Cliente_0425,23,Salvador,BA,17096.34,False,546
+426,Cliente_0426,55,Recife,PE,7322.77,True,588
+427,Cliente_0427,56,São Paulo,SP,16058.6,False,592
+428,Cliente_0428,18,Rio de Janeiro,RJ,15478.34,False,437
+429,Cliente_0429,64,Fortaleza,CE,7535.33,False,674
+430,Cliente_0430,43,Salvador,BA,2344.1,True,671
+431,Cliente_0431,36,Rio de Janeiro,RJ,2713.27,False,863
+432,Cliente_0432,70,Fortaleza,CE,17820.0,True,431
+433,Cliente_0433,43,Salvador,BA,7657.77,True,871
+434,Cliente_0434,66,Fortaleza,CE,3880.41,False,812
+435,Cliente_0435,20,Salvador,BA,2142.08,True,785
+436,Cliente_0436,47,Rio de Janeiro,RJ,3957.52,True,635
+437,Cliente_0437,38,Rio de Janeiro,RJ,4181.28,True,907
+438,Cliente_0438,50,Fortaleza,CE,15166.77,False,876
+439,Cliente_0439,48,Fortaleza,CE,14959.86,True,639
+440,Cliente_0440,25,Belo Horizonte,MG,17668.32,True,944
+441,Cliente_0441,56,Salvador,BA,9330.74,True,352
+442,Cliente_0442,48,Rio de Janeiro,RJ,4313.45,False,451
+443,Cliente_0443,33,Belo Horizonte,MG,2020.91,True,495
+444,Cliente_0444,46,Salvador,BA,6675.93,True,722
+445,Cliente_0445,31,Belo Horizonte,MG,8271.23,False,363
+446,Cliente_0446,26,Belo Horizonte,MG,10058.27,True,978
+447,Cliente_0447,51,São Paulo,SP,7717.61,True,770
+448,Cliente_0448,39,Rio de Janeiro,RJ,10513.51,True,924
+449,Cliente_0449,30,São Paulo,SP,17296.07,True,871
+450,Cliente_0450,32,Fortaleza,CE,17034.51,True,595
+451,Cliente_0451,31,Belo Horizonte,MG,12888.96,False,624
+452,Cliente_0452,40,São Paulo,SP,10748.05,True,594
+453,Cliente_0453,54,Salvador,BA,12664.27,False,704
+454,Cliente_0454,67,Fortaleza,CE,14776.16,True,343
+455,Cliente_0455,63,Fortaleza,CE,2803.99,False,971
+456,Cliente_0456,65,Fortaleza,CE,9404.81,True,851
+457,Cliente_0457,53,Fortaleza,CE,12986.83,True,411
+458,Cliente_0458,65,Rio de Janeiro,RJ,11182.7,True,351
+459,Cliente_0459,75,Belo Horizonte,MG,10262.18,True,353
+460,Cliente_0460,44,Salvador,BA,6949.84,False,402
+461,Cliente_0461,67,Belo Horizonte,MG,3768.21,True,716
+462,Cliente_0462,74,Belo Horizonte,MG,15993.59,False,966
+463,Cliente_0463,66,Recife,PE,17404.58,True,592
+464,Cliente_0464,21,Belo Horizonte,MG,16480.96,True,967
+465,Cliente_0465,32,Rio de Janeiro,RJ,10330.01,True,479
+466,Cliente_0466,74,São Paulo,SP,15320.48,True,706
+467,Cliente_0467,29,São Paulo,SP,16954.04,True,338
+468,Cliente_0468,37,Salvador,BA,10871.37,True,643
+469,Cliente_0469,47,Fortaleza,CE,17820.14,False,437
+470,Cliente_0470,47,Rio de Janeiro,RJ,6001.81,True,638
+471,Cliente_0471,64,Recife,PE,9072.09,True,490
+472,Cliente_0472,65,Salvador,BA,7062.35,True,881
+473,Cliente_0473,66,Belo Horizonte,MG,4687.16,False,737
+474,Cliente_0474,38,Rio de Janeiro,RJ,2931.17,True,489
+475,Cliente_0475,48,Recife,PE,6839.43,True,306
+476,Cliente_0476,42,Fortaleza,CE,5386.1,True,637
+477,Cliente_0477,55,Fortaleza,CE,13427.56,True,567
+478,Cliente_0478,41,Belo Horizonte,MG,12930.68,True,983
+479,Cliente_0479,47,Salvador,BA,6562.3,False,814
+480,Cliente_0480,67,Belo Horizonte,MG,6631.14,True,954
+481,Cliente_0481,41,Fortaleza,CE,11641.32,True,436
+482,Cliente_0482,27,São Paulo,SP,9007.15,True,725
+483,Cliente_0483,53,Belo Horizonte,MG,16561.15,True,553
+484,Cliente_0484,66,Belo Horizonte,MG,11330.94,True,838
+485,Cliente_0485,51,São Paulo,SP,13112.14,True,877
+486,Cliente_0486,21,Salvador,BA,15174.77,True,886
+487,Cliente_0487,27,Rio de Janeiro,RJ,4214.86,False,419
+488,Cliente_0488,31,Belo Horizonte,MG,13329.15,False,393
+489,Cliente_0489,46,Rio de Janeiro,RJ,14843.42,False,435
+490,Cliente_0490,44,Rio de Janeiro,RJ,9037.17,True,872
+491,Cliente_0491,61,São Paulo,SP,14814.1,True,705
+492,Cliente_0492,70,Fortaleza,CE,1549.76,True,892
+493,Cliente_0493,20,Salvador,BA,8491.01,True,854
+494,Cliente_0494,75,Salvador,BA,2638.82,False,332
+495,Cliente_0495,44,Fortaleza,CE,4469.69,True,956
+496,Cliente_0496,59,Belo Horizonte,MG,17402.41,True,691
+497,Cliente_0497,73,São Paulo,SP,16632.4,False,684
+498,Cliente_0498,61,Salvador,BA,17408.38,True,969
+499,Cliente_0499,25,Fortaleza,CE,4444.81,False,841
+500,Cliente_0500,64,Recife,PE,17648.95,True,323
+501,Cliente_0501,47,Fortaleza,CE,12612.75,False,844
+502,Cliente_0502,70,São Paulo,SP,5289.46,False,654
+503,Cliente_0503,35,Recife,PE,4609.93,True,332
+504,Cliente_0504,44,Belo Horizonte,MG,11646.23,True,546
+505,Cliente_0505,22,Recife,PE,3164.8,True,757
+506,Cliente_0506,61,Rio de Janeiro,RJ,13104.22,True,550
+507,Cliente_0507,20,Belo Horizonte,MG,8137.38,True,852
+508,Cliente_0508,66,Recife,PE,15751.55,True,443
+509,Cliente_0509,36,Rio de Janeiro,RJ,5363.67,True,891
+510,Cliente_0510,67,Rio de Janeiro,RJ,12596.78,True,542
+511,Cliente_0511,74,Fortaleza,CE,3863.8,True,723
+512,Cliente_0512,35,Fortaleza,CE,2505.8,True,941
+513,Cliente_0513,45,Belo Horizonte,MG,10671.54,True,652
+514,Cliente_0514,60,Belo Horizonte,MG,7789.05,True,726
+515,Cliente_0515,27,São Paulo,SP,6448.16,True,850
+516,Cliente_0516,33,São Paulo,SP,15514.13,True,447
+517,Cliente_0517,21,São Paulo,SP,10779.37,False,870
+518,Cliente_0518,26,Rio de Janeiro,RJ,7908.91,True,508
+519,Cliente_0519,59,Fortaleza,CE,2804.66,False,679
+520,Cliente_0520,52,Salvador,BA,13455.65,True,352
+521,Cliente_0521,42,Fortaleza,CE,12615.59,True,374
+522,Cliente_0522,69,Recife,PE,14067.99,True,790
+523,Cliente_0523,73,Recife,PE,16466.04,True,315
+524,Cliente_0524,30,Recife,PE,17374.28,True,790
+525,Cliente_0525,62,Recife,PE,11472.63,True,706
+526,Cliente_0526,53,Recife,PE,6806.65,True,689
+527,Cliente_0527,52,São Paulo,SP,12203.9,True,567
+528,Cliente_0528,50,Fortaleza,CE,16066.4,False,400
+529,Cliente_0529,48,Belo Horizonte,MG,14066.88,True,508
+530,Cliente_0530,38,Fortaleza,CE,8329.85,True,449
+531,Cliente_0531,34,Salvador,BA,10629.64,False,602
+532,Cliente_0532,30,Recife,PE,6942.78,False,883
+533,Cliente_0533,49,Recife,PE,10585.6,True,563
+534,Cliente_0534,64,São Paulo,SP,12087.96,False,771
+535,Cliente_0535,64,Recife,PE,14617.1,True,443
+536,Cliente_0536,52,Belo Horizonte,MG,9557.22,True,836
+537,Cliente_0537,71,Salvador,BA,15470.51,True,306
+538,Cliente_0538,26,São Paulo,SP,15401.99,True,369
+539,Cliente_0539,27,Belo Horizonte,MG,1650.83,False,682
+540,Cliente_0540,57,Salvador,BA,12022.52,False,975
+541,Cliente_0541,19,São Paulo,SP,1609.1,False,312
+542,Cliente_0542,51,Salvador,BA,13416.18,True,317
+543,Cliente_0543,70,Rio de Janeiro,RJ,13014.67,False,483
+544,Cliente_0544,24,Salvador,BA,10152.36,True,496
+545,Cliente_0545,51,Rio de Janeiro,RJ,5664.9,True,573
+546,Cliente_0546,23,São Paulo,SP,7655.35,False,770
+547,Cliente_0547,33,Rio de Janeiro,RJ,17838.85,True,607
+548,Cliente_0548,70,Belo Horizonte,MG,15489.81,True,395
+549,Cliente_0549,42,São Paulo,SP,7723.3,False,357
+550,Cliente_0550,18,Belo Horizonte,MG,13096.94,True,811
+551,Cliente_0551,59,São Paulo,SP,14442.21,True,840
+552,Cliente_0552,32,Salvador,BA,4988.38,False,577
+553,Cliente_0553,22,Salvador,BA,12793.07,True,856
+554,Cliente_0554,60,Rio de Janeiro,RJ,2042.88,True,316
+555,Cliente_0555,55,Recife,PE,3879.16,False,378
+556,Cliente_0556,28,Fortaleza,CE,10805.31,False,993
+557,Cliente_0557,39,Rio de Janeiro,RJ,7833.46,True,380
+558,Cliente_0558,65,Rio de Janeiro,RJ,17576.33,True,400
+559,Cliente_0559,32,São Paulo,SP,15338.13,True,919
+560,Cliente_0560,56,Rio de Janeiro,RJ,8045.6,True,330
+561,Cliente_0561,35,Belo Horizonte,MG,14428.54,False,802
+562,Cliente_0562,40,Recife,PE,10625.12,False,742
+563,Cliente_0563,61,Recife,PE,11166.94,False,387
+564,Cliente_0564,36,Rio de Janeiro,RJ,14667.91,True,384
+565,Cliente_0565,27,Fortaleza,CE,7770.0,True,698
+566,Cliente_0566,41,Fortaleza,CE,3258.09,True,615
+567,Cliente_0567,41,São Paulo,SP,14062.22,True,435
+568,Cliente_0568,29,Salvador,BA,8611.16,False,405
+569,Cliente_0569,23,Salvador,BA,7339.59,True,911
+570,Cliente_0570,68,Rio de Janeiro,RJ,6853.1,False,312
+571,Cliente_0571,44,Fortaleza,CE,7898.69,True,872
+572,Cliente_0572,54,Recife,PE,10098.22,False,473
+573,Cliente_0573,35,Recife,PE,6468.67,False,449
+574,Cliente_0574,28,Salvador,BA,8672.16,False,606
+575,Cliente_0575,68,São Paulo,SP,2769.2,True,552
+576,Cliente_0576,58,Belo Horizonte,MG,9680.74,True,768
+577,Cliente_0577,26,Salvador,BA,6526.86,False,640
+578,Cliente_0578,42,Rio de Janeiro,RJ,14767.26,True,750
+579,Cliente_0579,45,Fortaleza,CE,14955.35,True,607
+580,Cliente_0580,56,Fortaleza,CE,17130.1,True,790
+581,Cliente_0581,29,Fortaleza,CE,17415.48,True,598
+582,Cliente_0582,62,Belo Horizonte,MG,11942.89,True,633
+583,Cliente_0583,35,São Paulo,SP,14972.16,False,673
+584,Cliente_0584,54,Salvador,BA,4796.7,True,998
+585,Cliente_0585,19,Rio de Janeiro,RJ,17224.58,False,514
+586,Cliente_0586,69,São Paulo,SP,6306.96,True,718
+587,Cliente_0587,49,Belo Horizonte,MG,3796.46,True,547
+588,Cliente_0588,60,Fortaleza,CE,4043.36,False,686
+589,Cliente_0589,46,Salvador,BA,17846.56,False,896
+590,Cliente_0590,52,São Paulo,SP,9859.11,False,856
+591,Cliente_0591,68,Salvador,BA,17479.06,True,411
+592,Cliente_0592,60,Recife,PE,12467.45,True,962
+593,Cliente_0593,20,Rio de Janeiro,RJ,10793.13,False,639
+594,Cliente_0594,24,São Paulo,SP,1674.04,True,527
+595,Cliente_0595,65,Rio de Janeiro,RJ,10060.16,True,756
+596,Cliente_0596,43,Fortaleza,CE,9140.54,True,653
+597,Cliente_0597,48,Salvador,BA,3225.06,False,387
+598,Cliente_0598,71,Salvador,BA,17021.16,True,656
+599,Cliente_0599,39,Fortaleza,CE,9012.99,True,833
+600,Cliente_0600,40,São Paulo,SP,9356.68,False,763
+601,Cliente_0601,22,Fortaleza,CE,6454.36,True,323
+602,Cliente_0602,59,Fortaleza,CE,3304.48,True,549
+603,Cliente_0603,29,Rio de Janeiro,RJ,10606.52,True,873
+604,Cliente_0604,47,São Paulo,SP,5325.62,False,944
+605,Cliente_0605,29,Recife,PE,12067.9,False,705
+606,Cliente_0606,65,Salvador,BA,11632.76,True,760
+607,Cliente_0607,45,Rio de Janeiro,RJ,7915.79,True,510
+608,Cliente_0608,66,Fortaleza,CE,13112.04,True,891
+609,Cliente_0609,69,Salvador,BA,15887.66,True,674
+610,Cliente_0610,30,Fortaleza,CE,9049.58,True,986
+611,Cliente_0611,51,São Paulo,SP,17437.62,True,911
+612,Cliente_0612,57,São Paulo,SP,7976.98,True,656
+613,Cliente_0613,72,Fortaleza,CE,9054.7,True,989
+614,Cliente_0614,69,Belo Horizonte,MG,6407.84,True,988
+615,Cliente_0615,38,Recife,PE,3444.72,True,419
+616,Cliente_0616,41,Recife,PE,12941.7,False,728
+617,Cliente_0617,26,Rio de Janeiro,RJ,10984.3,False,490
+618,Cliente_0618,58,São Paulo,SP,10366.76,True,868
+619,Cliente_0619,49,Recife,PE,6265.77,True,622
+620,Cliente_0620,57,São Paulo,SP,2384.59,True,309
+621,Cliente_0621,26,São Paulo,SP,4719.62,False,875
+622,Cliente_0622,59,Rio de Janeiro,RJ,9667.0,False,725
+623,Cliente_0623,71,Belo Horizonte,MG,8823.55,True,384
+624,Cliente_0624,19,Rio de Janeiro,RJ,14632.03,True,599
+625,Cliente_0625,35,Salvador,BA,5209.92,True,472
+626,Cliente_0626,54,São Paulo,SP,13751.55,False,862
+627,Cliente_0627,25,Rio de Janeiro,RJ,10949.78,True,856
+628,Cliente_0628,52,Fortaleza,CE,15073.08,True,751
+629,Cliente_0629,31,Rio de Janeiro,RJ,17831.3,True,969
+630,Cliente_0630,37,Recife,PE,15934.36,True,760
+631,Cliente_0631,40,Fortaleza,CE,15726.29,True,749
+632,Cliente_0632,67,Salvador,BA,14896.17,True,902
+633,Cliente_0633,40,Belo Horizonte,MG,15707.3,False,469
+634,Cliente_0634,26,Rio de Janeiro,RJ,14450.01,True,360
+635,Cliente_0635,40,Rio de Janeiro,RJ,10282.63,True,631
+636,Cliente_0636,36,Belo Horizonte,MG,6274.0,True,826
+637,Cliente_0637,70,Belo Horizonte,MG,3071.22,False,360
+638,Cliente_0638,73,Fortaleza,CE,12322.29,True,555
+639,Cliente_0639,63,Recife,PE,6814.6,True,992
+640,Cliente_0640,49,São Paulo,SP,3845.83,True,942
+641,Cliente_0641,42,São Paulo,SP,8957.86,True,712
+642,Cliente_0642,65,Rio de Janeiro,RJ,6090.72,True,765
+643,Cliente_0643,38,São Paulo,SP,11102.27,True,769
+644,Cliente_0644,60,Belo Horizonte,MG,13005.27,True,847
+645,Cliente_0645,31,São Paulo,SP,17474.12,True,806
+646,Cliente_0646,38,Fortaleza,CE,15167.67,True,860
+647,Cliente_0647,26,Rio de Janeiro,RJ,10841.34,False,651
+648,Cliente_0648,66,Belo Horizonte,MG,2298.75,True,941
+649,Cliente_0649,19,São Paulo,SP,3549.91,True,751
+650,Cliente_0650,18,São Paulo,SP,17865.33,False,507
+651,Cliente_0651,26,Belo Horizonte,MG,16055.44,True,462
+652,Cliente_0652,23,Fortaleza,CE,12300.7,True,384
+653,Cliente_0653,60,Fortaleza,CE,16412.7,True,353
+654,Cliente_0654,58,São Paulo,SP,6540.9,True,739
+655,Cliente_0655,23,Belo Horizonte,MG,13111.02,True,518
+656,Cliente_0656,22,São Paulo,SP,3689.55,True,831
+657,Cliente_0657,46,Belo Horizonte,MG,1653.23,True,423
+658,Cliente_0658,62,São Paulo,SP,3680.89,True,534
+659,Cliente_0659,23,São Paulo,SP,13557.6,True,405
+660,Cliente_0660,41,Fortaleza,CE,16036.32,True,691
+661,Cliente_0661,59,Recife,PE,17883.51,True,370
+662,Cliente_0662,54,Rio de Janeiro,RJ,1639.83,True,750
+663,Cliente_0663,64,Fortaleza,CE,5015.41,True,721
+664,Cliente_0664,61,Rio de Janeiro,RJ,8799.33,True,388
+665,Cliente_0665,26,Salvador,BA,13915.35,False,659
+666,Cliente_0666,38,São Paulo,SP,14552.76,True,583
+667,Cliente_0667,23,Belo Horizonte,MG,5594.76,True,327
+668,Cliente_0668,74,Belo Horizonte,MG,6477.21,True,701
+669,Cliente_0669,59,Fortaleza,CE,2400.39,True,806
+670,Cliente_0670,25,São Paulo,SP,5477.85,True,840
+671,Cliente_0671,41,Salvador,BA,16909.75,True,696
+672,Cliente_0672,44,Rio de Janeiro,RJ,7529.31,True,782
+673,Cliente_0673,19,Salvador,BA,11191.5,True,568
+674,Cliente_0674,20,Recife,PE,16722.56,False,818
+675,Cliente_0675,58,Fortaleza,CE,13258.38,False,733
+676,Cliente_0676,43,Belo Horizonte,MG,2860.06,True,584
+677,Cliente_0677,37,Salvador,BA,2803.86,True,459
+678,Cliente_0678,38,Rio de Janeiro,RJ,7947.07,True,617
+679,Cliente_0679,45,Belo Horizonte,MG,13544.31,True,359
+680,Cliente_0680,23,Recife,PE,16756.36,True,764
+681,Cliente_0681,56,Rio de Janeiro,RJ,2407.97,True,422
+682,Cliente_0682,63,Salvador,BA,3763.99,True,467
+683,Cliente_0683,40,São Paulo,SP,10129.59,True,470
+684,Cliente_0684,26,Fortaleza,CE,13871.31,True,420
+685,Cliente_0685,39,Salvador,BA,14817.28,True,836
+686,Cliente_0686,34,Salvador,BA,13253.33,True,808
+687,Cliente_0687,50,São Paulo,SP,7442.04,False,880
+688,Cliente_0688,41,Recife,PE,4095.61,True,887
+689,Cliente_0689,64,Belo Horizonte,MG,3403.0,True,345
+690,Cliente_0690,33,Salvador,BA,2258.7,True,692
+691,Cliente_0691,29,Recife,PE,16864.14,True,866
+692,Cliente_0692,65,Belo Horizonte,MG,12319.1,True,629
+693,Cliente_0693,44,Recife,PE,16611.6,True,577
+694,Cliente_0694,54,Salvador,BA,7651.33,True,483
+695,Cliente_0695,69,Recife,PE,10010.27,True,710
+696,Cliente_0696,74,Salvador,BA,9174.05,True,618
+697,Cliente_0697,23,Fortaleza,CE,10626.01,True,677
+698,Cliente_0698,36,Recife,PE,10802.81,True,937
+699,Cliente_0699,47,Recife,PE,7576.51,False,500
+700,Cliente_0700,75,Belo Horizonte,MG,10518.23,True,454
+701,Cliente_0701,44,Salvador,BA,1894.52,True,951
+702,Cliente_0702,74,Belo Horizonte,MG,1658.31,True,301
+703,Cliente_0703,42,Belo Horizonte,MG,15508.6,True,406
+704,Cliente_0704,51,Recife,PE,17721.41,False,803
+705,Cliente_0705,27,Salvador,BA,13242.27,True,344
+706,Cliente_0706,75,Recife,PE,15450.82,False,681
+707,Cliente_0707,65,São Paulo,SP,2900.89,True,817
+708,Cliente_0708,58,Recife,PE,15029.39,True,906
+709,Cliente_0709,21,Rio de Janeiro,RJ,8677.22,True,542
+710,Cliente_0710,34,Fortaleza,CE,15540.08,False,634
+711,Cliente_0711,46,Fortaleza,CE,5987.27,True,507
+712,Cliente_0712,67,Recife,PE,14207.42,True,459
+713,Cliente_0713,28,Salvador,BA,8917.85,True,716
+714,Cliente_0714,52,Salvador,BA,7411.74,True,762
+715,Cliente_0715,47,Fortaleza,CE,5872.63,True,392
+716,Cliente_0716,69,Recife,PE,12819.9,True,520
+717,Cliente_0717,27,Fortaleza,CE,3005.01,True,664
+718,Cliente_0718,50,São Paulo,SP,2307.69,True,566
+719,Cliente_0719,19,Recife,PE,17209.59,False,869
+720,Cliente_0720,53,Belo Horizonte,MG,5622.57,False,404
+721,Cliente_0721,25,Recife,PE,1697.29,True,433
+722,Cliente_0722,70,Recife,PE,8109.6,True,896
+723,Cliente_0723,34,Rio de Janeiro,RJ,16637.57,True,322
+724,Cliente_0724,30,Salvador,BA,16391.19,False,431
+725,Cliente_0725,75,Salvador,BA,15480.04,True,425
+726,Cliente_0726,47,Salvador,BA,2335.52,False,704
+727,Cliente_0727,19,São Paulo,SP,7815.04,False,476
+728,Cliente_0728,31,Fortaleza,CE,16487.02,True,586
+729,Cliente_0729,74,São Paulo,SP,3952.42,True,962
+730,Cliente_0730,49,Fortaleza,CE,8297.87,False,362
+731,Cliente_0731,35,Salvador,BA,7819.75,False,504
+732,Cliente_0732,74,Belo Horizonte,MG,14653.77,True,945
+733,Cliente_0733,68,Rio de Janeiro,RJ,1822.24,False,667
+734,Cliente_0734,52,São Paulo,SP,14393.68,True,879
+735,Cliente_0735,38,Rio de Janeiro,RJ,7908.29,True,326
+736,Cliente_0736,56,Fortaleza,CE,5113.83,True,359
+737,Cliente_0737,51,São Paulo,SP,7397.64,True,463
+738,Cliente_0738,33,Salvador,BA,12338.26,True,846
+739,Cliente_0739,21,Belo Horizonte,MG,14106.82,True,889
+740,Cliente_0740,40,São Paulo,SP,16930.9,True,480
+741,Cliente_0741,55,Recife,PE,6747.07,True,905
+742,Cliente_0742,63,Salvador,BA,13059.25,True,876
+743,Cliente_0743,71,Recife,PE,17802.1,False,855
+744,Cliente_0744,29,Fortaleza,CE,9592.2,True,357
+745,Cliente_0745,56,Recife,PE,5110.35,False,300
+746,Cliente_0746,57,Fortaleza,CE,4824.16,True,648
+747,Cliente_0747,29,Belo Horizonte,MG,16659.88,True,360
+748,Cliente_0748,27,Salvador,BA,11179.05,True,413
+749,Cliente_0749,73,Rio de Janeiro,RJ,7520.68,True,682
+750,Cliente_0750,60,Belo Horizonte,MG,8027.33,True,644
+751,Cliente_0751,38,Fortaleza,CE,3751.45,True,747
+752,Cliente_0752,49,Belo Horizonte,MG,12211.47,True,875
+753,Cliente_0753,74,Belo Horizonte,MG,16825.95,True,528
+754,Cliente_0754,55,Belo Horizonte,MG,14938.49,False,614
+755,Cliente_0755,62,Belo Horizonte,MG,6359.53,True,301
+756,Cliente_0756,54,Belo Horizonte,MG,7961.42,True,486
+757,Cliente_0757,38,Rio de Janeiro,RJ,16697.13,True,954
+758,Cliente_0758,24,Rio de Janeiro,RJ,16955.35,True,639
+759,Cliente_0759,22,Belo Horizonte,MG,5426.93,True,471
+760,Cliente_0760,74,Belo Horizonte,MG,17390.81,True,757
+761,Cliente_0761,34,Salvador,BA,4959.79,True,658
+762,Cliente_0762,68,Fortaleza,CE,3282.57,True,349
+763,Cliente_0763,46,São Paulo,SP,13587.64,True,723
+764,Cliente_0764,74,São Paulo,SP,7748.76,False,403
+765,Cliente_0765,68,São Paulo,SP,15756.84,True,466
+766,Cliente_0766,22,São Paulo,SP,14686.71,True,601
+767,Cliente_0767,38,Salvador,BA,5808.61,True,375
+768,Cliente_0768,28,Fortaleza,CE,16150.87,True,376
+769,Cliente_0769,75,Rio de Janeiro,RJ,17637.69,True,908
+770,Cliente_0770,75,Rio de Janeiro,RJ,9465.16,True,741
+771,Cliente_0771,28,Belo Horizonte,MG,11520.74,False,460
+772,Cliente_0772,24,Salvador,BA,6963.06,True,719
+773,Cliente_0773,53,Belo Horizonte,MG,13413.63,True,976
+774,Cliente_0774,37,Fortaleza,CE,5419.55,True,702
+775,Cliente_0775,53,Rio de Janeiro,RJ,15357.6,True,355
+776,Cliente_0776,18,Fortaleza,CE,8555.5,True,977
+777,Cliente_0777,56,Belo Horizonte,MG,9425.42,True,326
+778,Cliente_0778,28,Recife,PE,12030.15,True,784
+779,Cliente_0779,37,Salvador,BA,14450.46,False,800
+780,Cliente_0780,34,Belo Horizonte,MG,3003.76,False,489
+781,Cliente_0781,74,Fortaleza,CE,7793.85,True,756
+782,Cliente_0782,34,Salvador,BA,8755.72,True,531
+783,Cliente_0783,54,Fortaleza,CE,2517.05,True,387
+784,Cliente_0784,40,Belo Horizonte,MG,14834.97,False,903
+785,Cliente_0785,53,Recife,PE,2506.23,False,835
+786,Cliente_0786,52,São Paulo,SP,12836.62,False,886
+787,Cliente_0787,48,Recife,PE,6431.06,False,335
+788,Cliente_0788,54,Rio de Janeiro,RJ,16357.51,True,423
+789,Cliente_0789,29,São Paulo,SP,17159.51,True,516
+790,Cliente_0790,26,Recife,PE,2204.15,True,999
+791,Cliente_0791,30,São Paulo,SP,17954.94,True,909
+792,Cliente_0792,38,Fortaleza,CE,16528.27,True,389
+793,Cliente_0793,53,São Paulo,SP,8056.36,True,582
+794,Cliente_0794,47,Rio de Janeiro,RJ,16633.17,True,938
+795,Cliente_0795,51,Rio de Janeiro,RJ,14397.81,True,724
+796,Cliente_0796,27,Recife,PE,10848.8,True,408
+797,Cliente_0797,67,Rio de Janeiro,RJ,3166.34,True,848
+798,Cliente_0798,74,Fortaleza,CE,8279.69,False,970
+799,Cliente_0799,54,São Paulo,SP,11547.88,True,476
+800,Cliente_0800,43,Fortaleza,CE,3873.57,False,339
+801,Cliente_0801,74,São Paulo,SP,16002.8,True,350
+802,Cliente_0802,48,Belo Horizonte,MG,16693.78,True,320
+803,Cliente_0803,70,Fortaleza,CE,14595.26,True,587
+804,Cliente_0804,72,São Paulo,SP,12987.02,True,533
+805,Cliente_0805,37,Recife,PE,17574.62,False,628
+806,Cliente_0806,64,Fortaleza,CE,8376.75,True,492
+807,Cliente_0807,31,São Paulo,SP,16571.64,False,796
+808,Cliente_0808,73,Rio de Janeiro,RJ,7669.52,True,827
+809,Cliente_0809,22,Recife,PE,6633.53,False,438
+810,Cliente_0810,74,Rio de Janeiro,RJ,10883.09,True,497
+811,Cliente_0811,71,Recife,PE,2450.85,True,767
+812,Cliente_0812,41,Salvador,BA,13126.46,True,677
+813,Cliente_0813,50,São Paulo,SP,8049.55,True,997
+814,Cliente_0814,33,Salvador,BA,7645.7,False,481
+815,Cliente_0815,55,São Paulo,SP,10597.01,True,467
+816,Cliente_0816,65,Fortaleza,CE,15209.36,True,591
+817,Cliente_0817,42,Salvador,BA,2319.24,True,526
+818,Cliente_0818,32,Belo Horizonte,MG,12681.97,True,967
+819,Cliente_0819,50,São Paulo,SP,1830.86,True,785
+820,Cliente_0820,59,Recife,PE,4357.81,True,529
+821,Cliente_0821,56,Fortaleza,CE,14783.91,True,958
+822,Cliente_0822,45,Fortaleza,CE,16275.47,True,770
+823,Cliente_0823,31,Fortaleza,CE,9200.52,False,898
+824,Cliente_0824,18,Salvador,BA,9939.98,True,874
+825,Cliente_0825,56,Belo Horizonte,MG,11549.33,True,1000
+826,Cliente_0826,48,Salvador,BA,2553.31,True,955
+827,Cliente_0827,73,Fortaleza,CE,6068.6,True,492
+828,Cliente_0828,51,Recife,PE,14130.33,True,914
+829,Cliente_0829,60,São Paulo,SP,6773.16,True,326
+830,Cliente_0830,49,Belo Horizonte,MG,17958.24,True,728
+831,Cliente_0831,42,São Paulo,SP,13656.08,True,651
+832,Cliente_0832,63,Belo Horizonte,MG,5168.99,False,987
+833,Cliente_0833,50,Fortaleza,CE,6453.21,True,973
+834,Cliente_0834,29,Rio de Janeiro,RJ,6347.44,False,431
+835,Cliente_0835,34,Belo Horizonte,MG,13465.58,True,996
+836,Cliente_0836,59,Fortaleza,CE,2973.45,True,528
+837,Cliente_0837,73,Belo Horizonte,MG,6566.91,True,680
+838,Cliente_0838,55,Fortaleza,CE,6351.84,True,781
+839,Cliente_0839,73,Salvador,BA,11967.55,True,783
+840,Cliente_0840,50,Recife,PE,3476.96,False,842
+841,Cliente_0841,44,Fortaleza,CE,2392.02,True,440
+842,Cliente_0842,39,Recife,PE,8251.67,False,446
+843,Cliente_0843,73,Fortaleza,CE,13308.53,True,799
+844,Cliente_0844,58,Fortaleza,CE,17779.57,True,949
+845,Cliente_0845,18,Salvador,BA,8958.88,True,472
+846,Cliente_0846,66,Rio de Janeiro,RJ,4114.18,True,432
+847,Cliente_0847,45,Rio de Janeiro,RJ,11952.54,False,739
+848,Cliente_0848,42,São Paulo,SP,1577.04,True,682
+849,Cliente_0849,75,Salvador,BA,6816.52,True,318
+850,Cliente_0850,18,Belo Horizonte,MG,11840.33,True,531
+851,Cliente_0851,74,Belo Horizonte,MG,7181.77,True,405
+852,Cliente_0852,50,São Paulo,SP,11213.07,True,366
+853,Cliente_0853,37,Salvador,BA,17149.65,False,832
+854,Cliente_0854,51,Rio de Janeiro,RJ,7074.28,True,650
+855,Cliente_0855,40,São Paulo,SP,13876.91,True,713
+856,Cliente_0856,32,Salvador,BA,5201.3,True,516
+857,Cliente_0857,19,Belo Horizonte,MG,11229.93,True,426
+858,Cliente_0858,63,Fortaleza,CE,12233.92,True,684
+859,Cliente_0859,34,Belo Horizonte,MG,14225.62,True,908
+860,Cliente_0860,60,Salvador,BA,3283.87,True,349
+861,Cliente_0861,25,Belo Horizonte,MG,8376.8,False,426
+862,Cliente_0862,34,Rio de Janeiro,RJ,9327.54,True,510
+863,Cliente_0863,61,Belo Horizonte,MG,11900.14,True,730
+864,Cliente_0864,24,Belo Horizonte,MG,12430.97,True,937
+865,Cliente_0865,62,Rio de Janeiro,RJ,3763.2,True,823
+866,Cliente_0866,57,Belo Horizonte,MG,3442.62,True,408
+867,Cliente_0867,30,São Paulo,SP,11548.53,True,835
+868,Cliente_0868,40,Recife,PE,13106.71,True,464
+869,Cliente_0869,53,Salvador,BA,9689.85,True,792
+870,Cliente_0870,33,Fortaleza,CE,1545.18,True,413
+871,Cliente_0871,60,Rio de Janeiro,RJ,9652.72,True,823
+872,Cliente_0872,64,Salvador,BA,13439.01,True,959
+873,Cliente_0873,47,Recife,PE,17812.99,True,570
+874,Cliente_0874,21,São Paulo,SP,3146.85,True,340
+875,Cliente_0875,41,Fortaleza,CE,14726.34,True,736
+876,Cliente_0876,25,Belo Horizonte,MG,3067.47,True,309
+877,Cliente_0877,60,Recife,PE,12178.78,True,666
+878,Cliente_0878,57,São Paulo,SP,5927.11,True,681
+879,Cliente_0879,29,Fortaleza,CE,3378.23,False,767
+880,Cliente_0880,71,Fortaleza,CE,7864.31,False,731
+881,Cliente_0881,74,Belo Horizonte,MG,14649.01,True,435
+882,Cliente_0882,64,Belo Horizonte,MG,2467.67,True,406
+883,Cliente_0883,55,São Paulo,SP,9464.14,False,485
+884,Cliente_0884,42,Rio de Janeiro,RJ,14356.21,True,1000
+885,Cliente_0885,75,Belo Horizonte,MG,3655.81,False,415
+886,Cliente_0886,46,São Paulo,SP,2258.54,True,970
+887,Cliente_0887,18,Fortaleza,CE,13125.37,True,985
+888,Cliente_0888,51,Fortaleza,CE,10131.2,True,743
+889,Cliente_0889,64,Belo Horizonte,MG,5601.52,True,979
+890,Cliente_0890,59,Belo Horizonte,MG,7850.46,True,311
+891,Cliente_0891,28,Belo Horizonte,MG,9841.86,False,807
+892,Cliente_0892,22,Recife,PE,13898.6,True,546
+893,Cliente_0893,35,Fortaleza,CE,2330.79,True,863
+894,Cliente_0894,42,Belo Horizonte,MG,8154.07,True,380
+895,Cliente_0895,46,São Paulo,SP,14720.81,False,390
+896,Cliente_0896,46,São Paulo,SP,6715.02,False,969
+897,Cliente_0897,24,Salvador,BA,8156.75,True,870
+898,Cliente_0898,18,Rio de Janeiro,RJ,15127.49,True,820
+899,Cliente_0899,31,Rio de Janeiro,RJ,12300.83,False,649
+900,Cliente_0900,70,Fortaleza,CE,2395.54,True,765
+901,Cliente_0901,53,Fortaleza,CE,14162.37,False,972
+902,Cliente_0902,63,Fortaleza,CE,8966.79,True,974
+903,Cliente_0903,18,Recife,PE,7132.39,True,860
+904,Cliente_0904,41,Rio de Janeiro,RJ,13084.58,True,468
+905,Cliente_0905,26,São Paulo,SP,15060.34,False,409
+906,Cliente_0906,57,Fortaleza,CE,4732.7,True,702
+907,Cliente_0907,47,Recife,PE,15105.14,True,646
+908,Cliente_0908,66,Salvador,BA,8338.76,True,761
+909,Cliente_0909,60,São Paulo,SP,11223.72,True,810
+910,Cliente_0910,51,Salvador,BA,13647.53,False,899
+911,Cliente_0911,50,São Paulo,SP,14387.84,True,892
+912,Cliente_0912,64,Recife,PE,14951.53,True,696
+913,Cliente_0913,56,Belo Horizonte,MG,11501.65,True,816
+914,Cliente_0914,44,São Paulo,SP,17661.76,True,580
+915,Cliente_0915,39,São Paulo,SP,17513.11,False,436
+916,Cliente_0916,44,Recife,PE,11441.65,True,860
+917,Cliente_0917,63,Fortaleza,CE,13657.51,True,505
+918,Cliente_0918,57,Recife,PE,13287.34,True,988
+919,Cliente_0919,63,Recife,PE,12226.43,True,815
+920,Cliente_0920,62,Rio de Janeiro,RJ,12008.48,True,660
+921,Cliente_0921,48,Rio de Janeiro,RJ,11116.3,False,990
+922,Cliente_0922,75,Belo Horizonte,MG,15382.92,True,732
+923,Cliente_0923,51,Salvador,BA,3256.76,False,448
+924,Cliente_0924,60,Salvador,BA,2433.98,True,464
+925,Cliente_0925,61,Fortaleza,CE,5634.26,True,602
+926,Cliente_0926,66,Recife,PE,10429.34,True,763
+927,Cliente_0927,57,Salvador,BA,15822.58,True,962
+928,Cliente_0928,42,Rio de Janeiro,RJ,5420.33,True,980
+929,Cliente_0929,42,Salvador,BA,7894.65,True,865
+930,Cliente_0930,18,Salvador,BA,13770.55,True,935
+931,Cliente_0931,71,São Paulo,SP,5221.55,True,902
+932,Cliente_0932,65,Rio de Janeiro,RJ,11455.89,True,601
+933,Cliente_0933,29,São Paulo,SP,17726.98,True,491
+934,Cliente_0934,65,Recife,PE,9978.47,False,341
+935,Cliente_0935,35,São Paulo,SP,10683.88,True,464
+936,Cliente_0936,72,Rio de Janeiro,RJ,5707.77,True,777
+937,Cliente_0937,27,Belo Horizonte,MG,2159.02,True,911
+938,Cliente_0938,67,Salvador,BA,16884.3,True,802
+939,Cliente_0939,53,Rio de Janeiro,RJ,7408.41,True,838
+940,Cliente_0940,29,Recife,PE,10090.0,True,725
+941,Cliente_0941,52,Rio de Janeiro,RJ,8156.38,True,526
+942,Cliente_0942,60,Recife,PE,6976.08,True,600
+943,Cliente_0943,66,Recife,PE,11701.63,False,874
+944,Cliente_0944,18,Belo Horizonte,MG,3392.91,True,756
+945,Cliente_0945,75,Recife,PE,12097.36,True,340
+946,Cliente_0946,74,Belo Horizonte,MG,6795.46,True,695
+947,Cliente_0947,52,Fortaleza,CE,13445.6,True,829
+948,Cliente_0948,50,Fortaleza,CE,14746.48,False,798
+949,Cliente_0949,36,Salvador,BA,16321.65,True,628
+950,Cliente_0950,23,Rio de Janeiro,RJ,17145.5,True,850
+951,Cliente_0951,18,Rio de Janeiro,RJ,11844.4,True,986
+952,Cliente_0952,67,Belo Horizonte,MG,5017.39,False,406
+953,Cliente_0953,52,Recife,PE,15174.35,False,962
+954,Cliente_0954,65,Salvador,BA,12819.72,True,770
+955,Cliente_0955,39,Belo Horizonte,MG,2125.12,True,355
+956,Cliente_0956,68,Recife,PE,5656.48,True,888
+957,Cliente_0957,34,Recife,PE,8225.94,False,945
+958,Cliente_0958,45,São Paulo,SP,6720.67,False,989
+959,Cliente_0959,52,Salvador,BA,1597.33,True,899
+960,Cliente_0960,62,Salvador,BA,15496.15,True,814
+961,Cliente_0961,36,Salvador,BA,14483.72,True,921
+962,Cliente_0962,36,Salvador,BA,14127.02,False,690
+963,Cliente_0963,70,São Paulo,SP,12401.93,False,460
+964,Cliente_0964,32,Rio de Janeiro,RJ,3750.29,False,858
+965,Cliente_0965,58,Fortaleza,CE,3877.25,True,311
+966,Cliente_0966,73,Rio de Janeiro,RJ,10658.65,True,342
+967,Cliente_0967,54,Salvador,BA,11344.81,True,612
+968,Cliente_0968,65,Recife,PE,13733.6,True,516
+969,Cliente_0969,75,São Paulo,SP,12157.87,True,464
+970,Cliente_0970,32,Recife,PE,11678.6,True,498
+971,Cliente_0971,29,Salvador,BA,12571.14,True,862
+972,Cliente_0972,59,São Paulo,SP,10569.47,True,987
+973,Cliente_0973,34,Salvador,BA,3120.34,False,638
+974,Cliente_0974,26,Fortaleza,CE,12576.38,True,402
+975,Cliente_0975,57,Fortaleza,CE,2651.85,True,625
+976,Cliente_0976,46,São Paulo,SP,6917.71,True,898
+977,Cliente_0977,54,Recife,PE,10853.22,True,738
+978,Cliente_0978,18,Recife,PE,6668.04,True,956
+979,Cliente_0979,35,São Paulo,SP,15361.82,True,995
+980,Cliente_0980,39,Belo Horizonte,MG,15985.12,False,756
+981,Cliente_0981,67,Fortaleza,CE,6540.28,True,479
+982,Cliente_0982,56,Belo Horizonte,MG,2852.57,True,443
+983,Cliente_0983,30,Rio de Janeiro,RJ,5843.37,True,377
+984,Cliente_0984,72,Salvador,BA,9868.44,True,895
+985,Cliente_0985,43,Rio de Janeiro,RJ,14191.8,True,337
+986,Cliente_0986,34,Rio de Janeiro,RJ,10467.24,False,969
+987,Cliente_0987,41,Recife,PE,7976.22,True,437
+988,Cliente_0988,50,São Paulo,SP,9921.8,False,672
+989,Cliente_0989,18,Rio de Janeiro,RJ,12434.2,True,826
+990,Cliente_0990,46,Recife,PE,4127.17,True,795
+991,Cliente_0991,20,Fortaleza,CE,5110.52,False,537
+992,Cliente_0992,34,Salvador,BA,7595.68,True,984
+993,Cliente_0993,51,Recife,PE,16477.48,True,697
+994,Cliente_0994,47,São Paulo,SP,16045.61,True,964
+995,Cliente_0995,24,Fortaleza,CE,13111.65,True,569
+996,Cliente_0996,52,Rio de Janeiro,RJ,10907.64,False,969
+997,Cliente_0997,41,São Paulo,SP,11196.7,True,829
+998,Cliente_0998,42,Fortaleza,CE,17549.12,True,828
+999,Cliente_0999,40,São Paulo,SP,14984.41,True,798
+1000,Cliente_1000,74,São Paulo,SP,11469.48,True,750

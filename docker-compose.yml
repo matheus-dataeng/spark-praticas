@@ -1,0 +1,28 @@
+services:
+
+  spark:
+    build:
+      context: .
+
+    container_name: curso-spark
+
+    volumes:
+      - ./:/workspace
+
+    working_dir: /workspace
+
+    ports:
+      - "8888:8888"
+
+    tty: true
+
+    stdin_open: true
+
+    command: >
+      bash -c "
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --allow-root
+      --NotebookApp.token=''
+      "

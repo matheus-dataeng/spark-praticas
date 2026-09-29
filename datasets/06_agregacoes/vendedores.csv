@@ -1,0 +1,21 @@
+vendedor_id,nome,equipe,gerente,data_admissao,salario
+101,Ana Beatriz Souza,E-commerce,Marcos Vinícius Duarte,2022-02-28,7200.00
+102,Carlos Eduardo Lima,Corporativo,Sandra Regina Moura,2025-10-12,3850.00
+103,Fernanda Oliveira,Varejo,Marcos Vinícius Duarte,2021-05-20,7600.00
+104,João Pedro Almeida,E-commerce,Marcos Vinícius Duarte,2020-07-09,8300.00
+105,Mariana Costa,E-commerce,Marcos Vinícius Duarte,2023-12-03,6100.00
+106,Rafael Ribeiro,Varejo,Marcos Vinícius Duarte,2023-03-16,5450.00
+107,Juliana Martins,Televendas,Sandra Regina Moura,2022-05-20,6300.00
+108,Lucas Ferreira,Televendas,Sandra Regina Moura,2023-08-30,6200.00
+109,Camila Rocha,Corporativo,Sandra Regina Moura,2018-05-14,9000.00
+110,Bruno Carvalho,Corporativo,Sandra Regina Moura,2018-04-17,10000.00
+111,Patrícia Gomes,Varejo,Marcos Vinícius Duarte,2025-04-25,4350.00
+112,Thiago Barbosa,Varejo,Marcos Vinícius Duarte,2022-01-23,7150.00
+113,Larissa Mendes,E-commerce,Marcos Vinícius Duarte,2020-12-25,7300.00
+114,Gustavo Araújo,Televendas,Sandra Regina Moura,2026-04-13,4300.00
+115,Renata Cardoso,Corporativo,Sandra Regina Moura,2021-09-08,7400.00
+116,Felipe Nunes,Televendas,Sandra Regina Moura,2019-01-07,9500.00
+117,Aline Teixeira,E-commerce,Marcos Vinícius Duarte,2022-08-14,6150.00
+118,Diego Monteiro,Varejo,Marcos Vinícius Duarte,2026-02-09,4200.00
+119,Vanessa Pires,Corporativo,Sandra Regina Moura,2021-12-24,7000.00
+120,Rodrigo Freitas,Televendas,Sandra Regina Moura,2019-04-06,8100.00

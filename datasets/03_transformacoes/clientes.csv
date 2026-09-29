@@ -1,0 +1,301 @@
+﻿cliente_id,nome,idade,cidade,estado,profissao,renda_mensal,sexo,ativo,data_cadastro
+1,Cliente 1,32,Feira de Santana,BA,Engenheiro,12925.67,M,False,2025-02-22
+2,Cliente 2,32,Feira de Santana,BA,Engenheiro,4852.23,M,False,2024-01-16
+3,Cliente 3,29,Feira de Santana,BA,Engenheiro,8919.6,F,False,2023-02-08
+4,Cliente 4,64,Salvador,BA,Analista,4253.53,F,False,2023-01-03
+5,Cliente 5,60,Salvador,BA,Engenheiro,2710.92,M,False,2023-09-15
+6,Cliente 6,30,Salvador,BA,Engenheiro,10282.08,F,False,2023-01-29
+7,Cliente 7,46,Feira de Santana,BA,Professor,6175.2,M,True,2023-12-15
+8,Cliente 8,27,São Paulo,SP,Engenheiro,14631.79,F,False,2025-06-16
+9,Cliente 9,29,Feira de Santana,BA,Desenvolvedor,12676.29,F,True,2024-06-12
+10,Cliente 10,56,Feira de Santana,BA,Engenheiro,8888.41,F,True,2024-02-22
+11,Cliente 11,68,São Paulo,SP,Desenvolvedor,5135.92,M,False,2024-04-26
+12,Cliente 12,26,São Paulo,SP,Professor,14371.09,M,True,2024-05-09
+13,Cliente 13,63,Feira de Santana,BA,Desenvolvedor,12740.2,M,False,2023-06-05
+14,Cliente 14,22,Feira de Santana,BA,Analista,13481.52,F,False,2025-04-25
+15,Cliente 15,25,São Paulo,SP,Analista,10692.99,M,True,2024-04-01
+16,Cliente 16,32,São Paulo,SP,Engenheiro,12449.68,F,True,2023-02-28
+17,Cliente 17,62,São Paulo,SP,Analista,13820.26,F,False,2024-06-25
+18,Cliente 18,58,São Paulo,SP,Professor,5460.96,M,False,2025-05-08
+19,Cliente 19,39,Feira de Santana,BA,Engenheiro,14974.64,M,True,2024-08-12
+20,Cliente 20,40,Feira de Santana,BA,Engenheiro,3930.59,F,False,2023-06-30
+21,Cliente 21,50,São Paulo,SP,Engenheiro,2091.99,M,False,2024-10-26
+22,Cliente 22,28,Feira de Santana,BA,Engenheiro,8461.33,F,True,2025-05-28
+23,Cliente 23,50,Feira de Santana,BA,Analista,10728.66,F,True,2023-02-25
+24,Cliente 24,43,Feira de Santana,BA,Professor,8450.66,M,False,2023-09-27
+25,Cliente 25,31,Feira de Santana,BA,Engenheiro,3749.95,M,False,2023-08-29
+26,Cliente 26,50,São Paulo,SP,Desenvolvedor,10115.87,M,False,2023-12-01
+27,Cliente 27,40,Feira de Santana,BA,Desenvolvedor,7602.35,M,True,2023-07-10
+28,Cliente 28,56,São Paulo,SP,Professor,11445.47,F,True,2024-06-18
+29,Cliente 29,18,Feira de Santana,BA,Engenheiro,9261.34,M,False,2023-11-08
+30,Cliente 30,56,Salvador,BA,Professor,14830.7,F,False,2024-05-04
+31,Cliente 31,43,Feira de Santana,BA,Desenvolvedor,6070.59,F,True,2025-06-04
+32,Cliente 32,35,São Paulo,SP,Analista,11461.16,F,False,2023-12-30
+33,Cliente 33,68,Salvador,BA,Engenheiro,9932.31,M,True,2025-06-04
+34,Cliente 34,51,São Paulo,SP,Engenheiro,6394.81,M,False,2025-03-07
+35,Cliente 35,25,Salvador,BA,Analista,5326.87,M,True,2024-02-27
+36,Cliente 36,20,Salvador,BA,Desenvolvedor,6804.25,M,False,2024-08-07
+37,Cliente 37,28,Salvador,BA,Desenvolvedor,2964.67,M,True,2024-10-11
+38,Cliente 38,38,São Paulo,SP,Professor,2081.83,F,True,2023-04-07
+39,Cliente 39,47,São Paulo,SP,Analista,13504.05,M,False,2024-10-16
+40,Cliente 40,67,Salvador,BA,Desenvolvedor,4624.2,F,True,2023-02-21
+41,Cliente 41,46,Salvador,BA,Desenvolvedor,13640.73,M,False,2025-05-18
+42,Cliente 42,19,Salvador,BA,Engenheiro,3576.43,F,True,2023-12-26
+43,Cliente 43,22,Feira de Santana,BA,Desenvolvedor,6232.0,F,True,2024-04-04
+44,Cliente 44,27,São Paulo,SP,Desenvolvedor,2109.38,F,True,2024-06-29
+45,Cliente 45,47,Feira de Santana,BA,Engenheiro,7311.93,F,True,2024-05-21
+46,Cliente 46,49,São Paulo,SP,Engenheiro,11428.48,M,True,2025-02-28
+47,Cliente 47,24,Feira de Santana,BA,Desenvolvedor,6935.56,F,False,2023-01-25
+48,Cliente 48,49,São Paulo,SP,Analista,10619.51,M,False,2024-09-21
+49,Cliente 49,39,Feira de Santana,BA,Desenvolvedor,5373.25,F,False,2023-12-07
+50,Cliente 50,22,Salvador,BA,Engenheiro,7504.54,M,True,2023-04-27
+51,Cliente 51,59,Feira de Santana,BA,Analista,12978.07,F,False,2025-04-17
+52,Cliente 52,52,Salvador,BA,Engenheiro,14036.0,F,True,2025-02-18
+53,Cliente 53,63,Salvador,BA,Professor,7727.26,M,False,2023-11-06
+54,Cliente 54,37,Salvador,BA,Analista,10822.24,F,False,2023-08-13
+55,Cliente 55,47,Salvador,BA,Desenvolvedor,11394.03,M,True,2024-06-25
+56,Cliente 56,27,Feira de Santana,BA,Engenheiro,3113.53,F,True,2024-05-27
+57,Cliente 57,64,São Paulo,SP,Desenvolvedor,12611.64,M,False,2023-12-20
+58,Cliente 58,49,Salvador,BA,Professor,7555.74,F,False,2023-06-05
+59,Cliente 59,66,Feira de Santana,BA,Analista,5635.36,F,False,2024-03-12
+60,Cliente 60,70,Salvador,BA,Desenvolvedor,4280.91,M,True,2024-06-28
+61,Cliente 61,50,Salvador,BA,Desenvolvedor,9309.95,F,False,2024-05-27
+62,Cliente 62,28,Feira de Santana,BA,Professor,5531.67,F,True,2024-03-13
+63,Cliente 63,26,São Paulo,SP,Analista,10234.41,F,False,2024-05-29
+64,Cliente 64,28,Salvador,BA,Analista,8927.92,M,True,2023-04-07
+65,Cliente 65,58,Feira de Santana,BA,Engenheiro,2762.48,M,True,2023-06-29
+66,Cliente 66,43,São Paulo,SP,Analista,11889.56,M,False,2023-05-25
+67,Cliente 67,67,São Paulo,SP,Engenheiro,2079.64,F,True,2024-12-28
+68,Cliente 68,31,São Paulo,SP,Engenheiro,5239.53,F,True,2024-03-05
+69,Cliente 69,55,São Paulo,SP,Desenvolvedor,9402.16,M,True,2023-09-30
+70,Cliente 70,38,São Paulo,SP,Desenvolvedor,14711.11,F,False,2024-05-27
+71,Cliente 71,40,São Paulo,SP,Engenheiro,11662.74,M,False,2024-03-19
+72,Cliente 72,57,Salvador,BA,Analista,10141.79,M,True,2024-07-12
+73,Cliente 73,35,São Paulo,SP,Analista,10793.2,F,True,2023-06-03
+74,Cliente 74,53,Salvador,BA,Engenheiro,9471.45,M,True,2023-05-12
+75,Cliente 75,34,Feira de Santana,BA,Desenvolvedor,8040.44,M,False,2023-06-08
+76,Cliente 76,29,Feira de Santana,BA,Professor,9575.84,F,True,2025-03-16
+77,Cliente 77,19,São Paulo,SP,Professor,8228.72,M,False,2024-08-20
+78,Cliente 78,31,Salvador,BA,Analista,2486.66,M,False,2025-02-17
+79,Cliente 79,63,São Paulo,SP,Desenvolvedor,6037.55,F,True,2024-08-25
+80,Cliente 80,28,Feira de Santana,BA,Engenheiro,4126.8,M,False,2025-04-22
+81,Cliente 81,32,Feira de Santana,BA,Professor,13842.45,M,False,2023-08-20
+82,Cliente 82,48,Salvador,BA,Desenvolvedor,8714.62,F,True,2024-05-01
+83,Cliente 83,51,Salvador,BA,Analista,9273.46,M,True,2024-04-23
+84,Cliente 84,55,São Paulo,SP,Professor,6096.39,F,False,2023-12-02
+85,Cliente 85,27,Salvador,BA,Desenvolvedor,3782.41,M,True,2023-05-20
+86,Cliente 86,19,Salvador,BA,Analista,5761.43,M,True,2025-04-10
+87,Cliente 87,47,Salvador,BA,Analista,5925.13,M,False,2023-05-20
+88,Cliente 88,40,Salvador,BA,Engenheiro,5706.53,M,False,2024-09-02
+89,Cliente 89,42,São Paulo,SP,Engenheiro,2330.82,M,False,2023-07-24
+90,Cliente 90,61,Salvador,BA,Professor,14117.2,F,False,2025-05-20
+91,Cliente 91,39,Salvador,BA,Desenvolvedor,6793.97,M,True,2024-05-24
+92,Cliente 92,43,Feira de Santana,BA,Professor,8450.43,F,False,2024-06-28
+93,Cliente 93,48,Feira de Santana,BA,Engenheiro,2366.84,F,False,2025-06-10
+94,Cliente 94,54,Salvador,BA,Engenheiro,12454.67,M,True,2025-04-05
+95,Cliente 95,38,Salvador,BA,Analista,8152.73,M,True,2024-12-16
+96,Cliente 96,64,Feira de Santana,BA,Desenvolvedor,7124.79,M,True,2023-12-04
+97,Cliente 97,22,Feira de Santana,BA,Engenheiro,10350.24,M,False,2023-02-16
+98,Cliente 98,36,Salvador,BA,Engenheiro,2234.26,F,True,2025-01-23
+99,Cliente 99,48,Feira de Santana,BA,Engenheiro,7330.62,F,True,2025-02-20
+100,Cliente 100,23,Salvador,BA,Desenvolvedor,6250.5,F,False,2024-10-04
+101,Cliente 101,53,São Paulo,SP,Analista,10059.63,F,False,2023-06-04
+102,Cliente 102,32,Salvador,BA,Desenvolvedor,2358.98,M,False,2023-10-08
+103,Cliente 103,48,Salvador,BA,Engenheiro,13789.06,F,False,2025-04-01
+104,Cliente 104,24,Salvador,BA,Engenheiro,14387.14,M,False,2024-09-02
+105,Cliente 105,34,Feira de Santana,BA,Professor,8898.16,M,False,2023-06-29
+106,Cliente 106,39,São Paulo,SP,Desenvolvedor,11085.61,M,False,2024-12-30
+107,Cliente 107,33,São Paulo,SP,Professor,8303.76,F,True,2025-03-07
+108,Cliente 108,19,Feira de Santana,BA,Engenheiro,9016.86,F,False,2025-05-03
+109,Cliente 109,49,São Paulo,SP,Professor,12791.96,M,False,2023-07-30
+110,Cliente 110,42,São Paulo,SP,Desenvolvedor,10739.9,M,True,2024-10-19
+111,Cliente 111,38,Salvador,BA,Desenvolvedor,6391.45,M,True,2023-12-20
+112,Cliente 112,25,Salvador,BA,Analista,9492.24,F,False,2025-04-26
+113,Cliente 113,49,São Paulo,SP,Engenheiro,13575.21,M,True,2024-07-02
+114,Cliente 114,47,São Paulo,SP,Desenvolvedor,8212.58,M,True,2023-03-25
+115,Cliente 115,47,Salvador,BA,Desenvolvedor,3657.24,M,True,2024-02-22
+116,Cliente 116,38,Salvador,BA,Engenheiro,8755.81,F,False,2025-04-14
+117,Cliente 117,41,Feira de Santana,BA,Engenheiro,2133.83,M,False,2023-07-04
+118,Cliente 118,64,Salvador,BA,Analista,3766.82,F,False,2025-01-14
+119,Cliente 119,22,Salvador,BA,Desenvolvedor,4306.75,M,False,2023-02-16
+120,Cliente 120,37,Feira de Santana,BA,Desenvolvedor,11423.18,M,False,2024-02-28
+121,Cliente 121,56,São Paulo,SP,Analista,3569.32,M,True,2023-10-25
+122,Cliente 122,32,São Paulo,SP,Professor,9962.29,M,True,2023-06-02
+123,Cliente 123,60,São Paulo,SP,Professor,6377.19,F,True,2024-03-10
+124,Cliente 124,36,Feira de Santana,BA,Engenheiro,12827.7,F,True,2023-02-26
+125,Cliente 125,51,São Paulo,SP,Analista,9638.9,F,True,2025-05-04
+126,Cliente 126,27,Salvador,BA,Engenheiro,14613.72,F,True,2024-08-07
+127,Cliente 127,21,Feira de Santana,BA,Professor,11052.04,F,False,2024-10-25
+128,Cliente 128,30,Salvador,BA,Analista,4263.57,F,False,2023-02-16
+129,Cliente 129,61,Feira de Santana,BA,Analista,11364.64,M,False,2024-08-01
+130,Cliente 130,65,Feira de Santana,BA,Analista,5400.67,M,True,2025-03-24
+131,Cliente 131,32,Feira de Santana,BA,Analista,6857.67,F,False,2023-04-28
+132,Cliente 132,46,Salvador,BA,Desenvolvedor,10448.13,F,True,2024-03-26
+133,Cliente 133,57,São Paulo,SP,Analista,5702.13,F,False,2025-06-13
+134,Cliente 134,21,Feira de Santana,BA,Engenheiro,12731.15,F,False,2023-06-30
+135,Cliente 135,68,Salvador,BA,Desenvolvedor,4132.8,M,False,2024-12-20
+136,Cliente 136,30,Feira de Santana,BA,Professor,4632.03,F,True,2024-12-19
+137,Cliente 137,57,Feira de Santana,BA,Analista,5293.18,M,False,2025-01-14
+138,Cliente 138,50,Salvador,BA,Analista,2983.5,M,True,2025-02-03
+139,Cliente 139,28,São Paulo,SP,Professor,5971.64,M,False,2025-02-10
+140,Cliente 140,56,Salvador,BA,Engenheiro,5314.83,F,False,2023-06-21
+141,Cliente 141,32,São Paulo,SP,Analista,13920.12,M,True,2024-05-09
+142,Cliente 142,60,Feira de Santana,BA,Professor,5545.17,F,False,2024-04-10
+143,Cliente 143,39,Feira de Santana,BA,Desenvolvedor,7152.15,M,False,2024-03-24
+144,Cliente 144,18,Salvador,BA,Analista,4771.59,M,False,2024-04-12
+145,Cliente 145,65,São Paulo,SP,Professor,14120.13,M,False,2024-09-22
+146,Cliente 146,41,São Paulo,SP,Analista,12299.34,M,False,2023-07-10
+147,Cliente 147,22,Feira de Santana,BA,Engenheiro,6631.61,F,True,2023-03-12
+148,Cliente 148,45,Feira de Santana,BA,Professor,3469.78,F,True,2023-06-28
+149,Cliente 149,35,Salvador,BA,Engenheiro,13225.2,M,False,2024-04-05
+150,Cliente 150,64,São Paulo,SP,Analista,3860.17,M,False,2023-09-29
+151,Cliente 151,66,Feira de Santana,BA,Analista,14083.03,F,False,2024-10-03
+152,Cliente 152,52,Salvador,BA,Analista,7328.05,F,False,2024-12-07
+153,Cliente 153,40,Salvador,BA,Analista,5092.1,F,False,2024-04-19
+154,Cliente 154,49,Salvador,BA,Engenheiro,8317.26,M,False,2024-11-24
+155,Cliente 155,57,Salvador,BA,Professor,5514.81,F,False,2024-03-18
+156,Cliente 156,29,São Paulo,SP,Professor,12622.82,F,False,2025-06-10
+157,Cliente 157,58,São Paulo,SP,Engenheiro,4627.32,F,False,2023-02-20
+158,Cliente 158,53,Salvador,BA,Engenheiro,1974.18,F,False,2024-06-28
+159,Cliente 159,35,São Paulo,SP,Desenvolvedor,14967.5,M,False,2024-02-16
+160,Cliente 160,44,São Paulo,SP,Engenheiro,3474.34,F,False,2024-03-01
+161,Cliente 161,27,São Paulo,SP,Desenvolvedor,10647.71,M,False,2024-02-25
+162,Cliente 162,27,Salvador,BA,Analista,11204.39,M,False,2024-01-08
+163,Cliente 163,55,Feira de Santana,BA,Engenheiro,14356.03,M,False,2024-12-28
+164,Cliente 164,34,Salvador,BA,Professor,13995.6,F,False,2025-05-27
+165,Cliente 165,61,Feira de Santana,BA,Desenvolvedor,3524.24,F,True,2024-02-10
+166,Cliente 166,65,Feira de Santana,BA,Analista,5296.14,F,True,2024-07-17
+167,Cliente 167,23,São Paulo,SP,Engenheiro,7124.65,F,True,2023-02-06
+168,Cliente 168,66,Feira de Santana,BA,Professor,7216.17,F,False,2024-07-22
+169,Cliente 169,59,Salvador,BA,Engenheiro,2769.4,F,False,2024-12-25
+170,Cliente 170,43,Feira de Santana,BA,Analista,9840.21,F,False,2025-06-11
+171,Cliente 171,25,São Paulo,SP,Professor,8842.07,M,True,2024-07-22
+172,Cliente 172,42,Feira de Santana,BA,Analista,5005.74,M,False,2023-12-15
+173,Cliente 173,52,São Paulo,SP,Desenvolvedor,2954.21,F,False,2023-01-19
+174,Cliente 174,27,São Paulo,SP,Desenvolvedor,9931.88,M,True,2024-09-28
+175,Cliente 175,58,Salvador,BA,Analista,9596.5,M,True,2023-02-11
+176,Cliente 176,39,São Paulo,SP,Engenheiro,3431.52,M,True,2025-04-13
+177,Cliente 177,63,São Paulo,SP,Engenheiro,11249.3,F,False,2023-04-18
+178,Cliente 178,30,São Paulo,SP,Engenheiro,4931.92,M,False,2024-06-06
+179,Cliente 179,58,Salvador,BA,Desenvolvedor,6360.3,F,True,2023-04-05
+180,Cliente 180,67,São Paulo,SP,Engenheiro,10662.04,M,True,2024-01-13
+181,Cliente 181,43,Salvador,BA,Analista,10477.23,F,False,2024-01-20
+182,Cliente 182,44,Feira de Santana,BA,Desenvolvedor,12787.36,F,True,2023-03-15
+183,Cliente 183,65,São Paulo,SP,Professor,9261.93,M,False,2024-12-02
+184,Cliente 184,53,Feira de Santana,BA,Desenvolvedor,11672.23,M,True,2023-11-15
+185,Cliente 185,62,São Paulo,SP,Desenvolvedor,3007.62,F,False,2025-03-24
+186,Cliente 186,40,Feira de Santana,BA,Professor,11507.48,M,False,2024-07-28
+187,Cliente 187,46,Salvador,BA,Professor,14726.64,F,False,2023-03-28
+188,Cliente 188,42,Salvador,BA,Engenheiro,12724.0,M,True,2023-12-16
+189,Cliente 189,36,Salvador,BA,Desenvolvedor,4287.22,F,False,2024-07-22
+190,Cliente 190,31,São Paulo,SP,Engenheiro,14316.19,M,False,2023-09-06
+191,Cliente 191,33,Salvador,BA,Analista,6739.45,M,False,2024-03-26
+192,Cliente 192,48,Salvador,BA,Engenheiro,8571.84,M,True,2024-07-13
+193,Cliente 193,50,Feira de Santana,BA,Professor,11213.9,M,False,2023-05-13
+194,Cliente 194,70,São Paulo,SP,Analista,10442.92,M,False,2024-04-23
+195,Cliente 195,63,Salvador,BA,Analista,2000.65,M,False,2025-01-24
+196,Cliente 196,23,Salvador,BA,Engenheiro,11372.04,F,True,2023-06-03
+197,Cliente 197,23,São Paulo,SP,Professor,13899.05,M,False,2025-03-04
+198,Cliente 198,19,São Paulo,SP,Desenvolvedor,9790.43,M,True,2024-01-27
+199,Cliente 199,33,Feira de Santana,BA,Desenvolvedor,9960.24,F,False,2023-09-30
+200,Cliente 200,42,Salvador,BA,Engenheiro,3225.59,M,True,2024-09-12
+201,Cliente 201,67,Salvador,BA,Desenvolvedor,1905.65,F,False,2023-10-17
+202,Cliente 202,22,São Paulo,SP,Professor,11422.87,M,False,2024-10-20
+203,Cliente 203,34,Feira de Santana,BA,Engenheiro,12728.35,F,True,2023-11-01
+204,Cliente 204,50,Feira de Santana,BA,Professor,7715.45,F,True,2025-04-22
+205,Cliente 205,37,Feira de Santana,BA,Professor,13427.05,M,True,2023-01-26
+206,Cliente 206,65,São Paulo,SP,Desenvolvedor,14243.3,F,False,2023-10-24
+207,Cliente 207,62,São Paulo,SP,Desenvolvedor,3884.25,M,False,2024-11-30
+208,Cliente 208,35,São Paulo,SP,Engenheiro,7367.36,F,True,2023-05-15
+209,Cliente 209,58,São Paulo,SP,Professor,10623.5,F,False,2024-09-18
+210,Cliente 210,36,Feira de Santana,BA,Engenheiro,14174.01,F,False,2023-05-30
+211,Cliente 211,51,São Paulo,SP,Professor,3438.74,M,True,2024-11-06
+212,Cliente 212,19,Feira de Santana,BA,Desenvolvedor,14998.33,M,False,2025-01-21
+213,Cliente 213,44,Feira de Santana,BA,Engenheiro,8279.25,M,False,2025-03-19
+214,Cliente 214,62,Feira de Santana,BA,Analista,9144.52,M,False,2023-07-02
+215,Cliente 215,55,Salvador,BA,Professor,8706.45,F,True,2024-04-04
+216,Cliente 216,67,Feira de Santana,BA,Professor,10403.98,M,False,2025-06-11
+217,Cliente 217,33,Salvador,BA,Analista,8319.29,M,False,2024-10-31
+218,Cliente 218,45,Feira de Santana,BA,Analista,9949.03,M,False,2023-06-10
+219,Cliente 219,52,Feira de Santana,BA,Analista,6609.06,M,False,2024-06-21
+220,Cliente 220,68,Feira de Santana,BA,Engenheiro,6990.54,F,False,2023-07-22
+221,Cliente 221,36,Salvador,BA,Analista,11500.12,M,True,2024-08-18
+222,Cliente 222,34,Feira de Santana,BA,Analista,6498.79,F,True,2024-08-11
+223,Cliente 223,27,Feira de Santana,BA,Analista,6639.82,M,True,2023-12-27
+224,Cliente 224,25,Salvador,BA,Professor,7087.14,F,False,2024-06-19
+225,Cliente 225,21,São Paulo,SP,Desenvolvedor,12893.39,F,False,2023-03-27
+226,Cliente 226,44,Feira de Santana,BA,Desenvolvedor,2386.18,F,True,2023-10-05
+227,Cliente 227,25,Salvador,BA,Analista,2598.4,M,True,2024-12-29
+228,Cliente 228,30,Feira de Santana,BA,Engenheiro,13846.43,F,True,2024-11-18
+229,Cliente 229,27,Salvador,BA,Desenvolvedor,14719.11,M,False,2025-05-01
+230,Cliente 230,30,Salvador,BA,Engenheiro,8390.18,F,False,2025-02-17
+231,Cliente 231,55,São Paulo,SP,Analista,10968.41,F,True,2024-11-22
+232,Cliente 232,45,Salvador,BA,Professor,2696.63,M,True,2023-08-10
+233,Cliente 233,56,Feira de Santana,BA,Professor,9018.39,F,False,2024-05-09
+234,Cliente 234,69,São Paulo,SP,Analista,6564.98,M,True,2023-02-10
+235,Cliente 235,28,Salvador,BA,Engenheiro,5748.49,M,True,2025-05-17
+236,Cliente 236,57,Salvador,BA,Analista,5142.76,F,True,2023-09-28
+237,Cliente 237,30,Feira de Santana,BA,Engenheiro,5554.61,F,False,2023-01-14
+238,Cliente 238,33,Feira de Santana,BA,Professor,10471.86,F,False,2023-09-27
+239,Cliente 239,33,São Paulo,SP,Analista,6231.49,M,True,2024-03-19
+240,Cliente 240,57,Salvador,BA,Professor,12758.26,M,True,2023-10-13
+241,Cliente 241,40,Feira de Santana,BA,Engenheiro,13576.79,F,True,2024-08-17
+242,Cliente 242,69,São Paulo,SP,Analista,2592.45,F,True,2024-11-15
+243,Cliente 243,52,Feira de Santana,BA,Professor,13533.61,F,True,2023-08-22
+244,Cliente 244,67,Feira de Santana,BA,Professor,12736.77,M,False,2024-11-28
+245,Cliente 245,26,Salvador,BA,Desenvolvedor,5184.61,F,True,2024-07-01
+246,Cliente 246,39,Feira de Santana,BA,Professor,2998.24,F,True,2023-09-09
+247,Cliente 247,43,Salvador,BA,Analista,10248.18,F,False,2025-01-20
+248,Cliente 248,35,Salvador,BA,Engenheiro,3210.45,M,True,2025-05-06
+249,Cliente 249,66,São Paulo,SP,Analista,5280.85,M,False,2023-10-07
+250,Cliente 250,40,Salvador,BA,Desenvolvedor,10954.61,F,False,2023-05-30
+251,Cliente 251,37,São Paulo,SP,Analista,14357.45,M,True,2024-03-01
+252,Cliente 252,26,São Paulo,SP,Desenvolvedor,7350.36,M,False,2023-10-01
+253,Cliente 253,54,Feira de Santana,BA,Engenheiro,3538.55,M,True,2023-09-28
+254,Cliente 254,23,Feira de Santana,BA,Professor,5606.26,F,False,2024-09-11
+255,Cliente 255,49,Feira de Santana,BA,Desenvolvedor,14822.31,F,False,2023-10-05
+256,Cliente 256,52,Feira de Santana,BA,Desenvolvedor,14356.48,M,True,2023-04-26
+257,Cliente 257,23,Feira de Santana,BA,Professor,4067.19,F,True,2024-04-15
+258,Cliente 258,43,Feira de Santana,BA,Analista,13886.1,F,True,2023-03-04
+259,Cliente 259,42,Feira de Santana,BA,Desenvolvedor,3886.05,M,False,2024-10-19
+260,Cliente 260,32,São Paulo,SP,Professor,3156.46,M,True,2025-03-26
+261,Cliente 261,40,Feira de Santana,BA,Desenvolvedor,9422.31,M,False,2023-05-25
+262,Cliente 262,30,São Paulo,SP,Analista,9633.33,F,True,2024-12-08
+263,Cliente 263,61,São Paulo,SP,Engenheiro,3588.72,F,False,2023-01-23
+264,Cliente 264,57,Salvador,BA,Engenheiro,3959.3,M,True,2024-04-11
+265,Cliente 265,18,Salvador,BA,Engenheiro,4232.78,F,True,2024-07-28
+266,Cliente 266,49,Feira de Santana,BA,Engenheiro,11866.31,M,False,2024-11-17
+267,Cliente 267,48,Feira de Santana,BA,Analista,3817.36,F,False,2024-01-06
+268,Cliente 268,23,São Paulo,SP,Analista,4412.45,F,False,2023-05-01
+269,Cliente 269,40,Salvador,BA,Professor,11681.92,M,True,2025-05-17
+270,Cliente 270,68,Feira de Santana,BA,Engenheiro,13060.13,M,False,2023-04-02
+271,Cliente 271,42,São Paulo,SP,Analista,12724.37,F,False,2023-03-25
+272,Cliente 272,39,Feira de Santana,BA,Analista,3852.83,F,False,2025-04-13
+273,Cliente 273,39,São Paulo,SP,Analista,9177.04,M,True,2025-03-30
+274,Cliente 274,24,Salvador,BA,Professor,4983.12,F,False,2024-04-05
+275,Cliente 275,47,Feira de Santana,BA,Engenheiro,4718.89,F,False,2023-03-04
+276,Cliente 276,51,Salvador,BA,Analista,6243.45,F,True,2024-09-18
+277,Cliente 277,61,Salvador,BA,Engenheiro,11092.42,F,True,2024-02-22
+278,Cliente 278,28,Feira de Santana,BA,Desenvolvedor,8009.62,F,True,2023-05-21
+279,Cliente 279,50,Salvador,BA,Analista,12707.82,M,True,2023-06-21
+280,Cliente 280,46,São Paulo,SP,Engenheiro,8339.95,M,True,2024-12-28
+281,Cliente 281,25,São Paulo,SP,Professor,10890.94,M,False,2023-04-17
+282,Cliente 282,36,Feira de Santana,BA,Desenvolvedor,11907.3,M,True,2024-01-24
+283,Cliente 283,67,Feira de Santana,BA,Analista,14523.47,F,True,2025-02-13
+284,Cliente 284,31,São Paulo,SP,Professor,12819.01,F,False,2024-08-25
+285,Cliente 285,60,Feira de Santana,BA,Analista,13537.25,F,False,2024-04-28
+286,Cliente 286,51,São Paulo,SP,Analista,3466.35,M,False,2025-02-25
+287,Cliente 287,37,Feira de Santana,BA,Desenvolvedor,4490.89,M,True,2025-02-23
+288,Cliente 288,42,Feira de Santana,BA,Desenvolvedor,11343.15,F,False,2024-01-06
+289,Cliente 289,37,Salvador,BA,Engenheiro,2924.74,F,True,2023-08-16
+290,Cliente 290,70,São Paulo,SP,Analista,4504.52,F,True,2023-07-13
+291,Cliente 291,70,Feira de Santana,BA,Desenvolvedor,2623.9,M,True,2025-04-29
+292,Cliente 292,26,Salvador,BA,Desenvolvedor,11536.05,M,False,2023-07-10
+293,Cliente 293,64,Feira de Santana,BA,Desenvolvedor,11553.07,F,False,2023-10-08
+294,Cliente 294,42,Salvador,BA,Engenheiro,12201.45,F,False,2023-10-09
+295,Cliente 295,45,Salvador,BA,Analista,3864.07,F,True,2023-10-05
+296,Cliente 296,37,Salvador,BA,Engenheiro,4435.95,F,True,2025-05-18
+297,Cliente 297,66,Salvador,BA,Desenvolvedor,9711.65,F,True,2024-06-09
+298,Cliente 298,53,Feira de Santana,BA,Professor,4853.43,M,True,2023-09-30
+299,Cliente 299,33,Feira de Santana,BA,Analista,5704.35,M,True,2023-05-27
+300,Cliente 300,44,São Paulo,SP,Analista,11194.37,F,False,2025-01-29

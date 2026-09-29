@@ -1,0 +1,21 @@
+cliente_id,nome,idade,cidade,renda_mensal,ativo
+1,Cliente_1,58,Salvador,2055.11,True
+2,Cliente_2,33,Feira de Santana,3223.29,True
+3,Cliente_3,61,Vitória da Conquista,2686.78,False
+4,Cliente_4,20,Salvador,2755.69,True
+5,Cliente_5,50,Vitória da Conquista,2070.67,True
+6,Cliente_6,63,Vitória da Conquista,6079.1,False
+7,Cliente_7,55,Lauro de Freitas,10056.19,True
+8,Cliente_8,66,Feira de Santana,8921.02,True
+9,Cliente_9,35,Feira de Santana,3996.2,True
+10,Cliente_10,24,Salvador,5675.26,True
+11,Cliente_11,40,Vitória da Conquista,4498.11,True
+12,Cliente_12,64,Camaçari,7269.53,False
+13,Cliente_13,23,Vitória da Conquista,4790.42,True
+14,Cliente_14,54,Feira de Santana,8986.63,True
+15,Cliente_15,60,Feira de Santana,9685.3,True
+16,Cliente_16,32,Salvador,5677.29,False
+17,Cliente_17,58,Lauro de Freitas,3459.07,True
+18,Cliente_18,31,Lauro de Freitas,8958.57,True
+19,Cliente_19,56,Feira de Santana,7248.23,True
+20,Cliente_20,28,Camaçari,5670.45,True

@@ -1,0 +1,15 @@
+pyspark==3.5.1
+
+jupyterlab
+
+pandas
+
+numpy
+
+pyarrow
+
+fastparquet
+
+matplotlib
+
+seaborn

@@ -1,0 +1,501 @@
+cliente_id,nome,cidade,estado,segmento,data_cadastro,ativo
+1,Ana Martins,Curitiba,PR,Varejo,2023-04-03,True
+2,Tatiana Pereira,Salvador,BA,Varejo,2022-07-11,True
+3,Samuel Souza,Recife,PE,PME,2025-01-21,True
+4,Ana Barbosa,Contagem,MG,PME,2024-05-15,True
+5,Karen Santos,Campinas,SP,Varejo,2022-07-18,True
+6,Bruno Martins,Petrópolis,RJ,Varejo,2022-09-13,True
+7,Samuel Lima,Belo Horizonte,MG,PME,2025-06-20,True
+8,Carla Silva,Niterói,RJ,PME,2023-08-16,True
+9,Mariana Lima,São Paulo,SP,Varejo,2024-01-18,True
+10,Isabela Martins,Niterói,RJ,Enterprise,2025-08-20,False
+11,Samuel Martins,Londrina,PR,Varejo,2024-08-04,True
+12,Karen Ribeiro,Londrina,PR,PME,2022-04-25,True
+13,Mariana Lima,Vitória da Conquista,BA,Varejo,2025-03-07,True
+14,Paulo Pereira,Niterói,RJ,PME,2025-08-09,True
+15,Henrique Martins,Niterói,RJ,PME,2023-06-23,True
+16,Lucas Souza,Juiz de Fora,MG,Enterprise,2022-10-11,True
+17,Diego Oliveira,Salvador,BA,PME,2025-10-25,True
+18,Mariana Carvalho,Camaçari,BA,Enterprise,2024-12-19,True
+19,Diego Gomes,Recife,PE,PME,2023-07-01,True
+20,João Pereira,Rio de Janeiro,RJ,Varejo,2022-01-07,True
+21,Rafaela Barbosa,Maringá,PR,Varejo,2022-08-06,True
+22,Eduarda Costa,Niterói,RJ,PME,2025-01-09,True
+23,Vinicius Costa,Recife,PE,Varejo,2022-08-18,True
+24,Bruno Souza,Niterói,RJ,PME,2022-06-11,True
+25,Samuel Barbosa,Belo Horizonte,MG,Varejo,2025-09-13,True
+26,Isabela Rocha,Olinda,PE,PME,2024-05-16,True
+27,João Pereira,Olinda,PE,Enterprise,2025-08-23,True
+28,Diego Souza,Petrolina,PE,Varejo,2023-11-24,False
+29,Tatiana Souza,Olinda,PE,Varejo,2025-07-16,False
+30,Karen Santos,Salvador,BA,Varejo,2023-07-25,True
+31,Tatiana Carvalho,Campinas,SP,Varejo,2024-08-26,True
+32,Diego Gomes,São Paulo,SP,Varejo,2024-05-17,True
+33,Diego Silva,Curitiba,PR,Varejo,2023-11-26,True
+34,Gabriela Souza,Feira de Santana,BA,Varejo,2022-10-15,True
+35,Henrique Ribeiro,Nova Iguaçu,RJ,Enterprise,2024-06-26,True
+36,Bruno Gomes,Recife,PE,Enterprise,2022-01-31,True
+37,Nicolas Almeida,Campinas,SP,Varejo,2024-04-01,True
+38,Ana Pereira,Sorocaba,SP,Varejo,2024-07-20,True
+39,Eduarda Souza,Cascavel,PR,Varejo,2022-04-30,True
+40,Karen Silva,Recife,PE,Varejo,2024-09-03,True
+41,Bruno Rocha,Olinda,PE,Varejo,2023-01-16,False
+42,Mariana Santos,Feira de Santana,BA,Enterprise,2025-03-12,True
+43,Vinicius Santos,Recife,PE,Varejo,2025-04-10,True
+44,Gabriela Gomes,Petrópolis,RJ,PME,2023-05-04,True
+45,Olivia Costa,Santos,SP,Enterprise,2022-05-29,False
+46,Carla Rocha,Recife,PE,Varejo,2023-06-28,True
+47,Henrique Costa,Rio de Janeiro,RJ,Varejo,2024-06-16,True
+48,Vinicius Barbosa,Maringá,PR,PME,2022-01-17,True
+49,Diego Mendes,Caruaru,PE,Varejo,2022-08-25,True
+50,Isabela Lima,Londrina,PR,PME,2023-12-04,True
+51,Rafaela Almeida,Maringá,PR,Varejo,2022-04-15,True
+52,Bruno Silva,Contagem,MG,Varejo,2022-09-25,True
+53,Olivia Rocha,Niterói,RJ,PME,2025-02-22,False
+54,Samuel Silva,Feira de Santana,BA,PME,2025-04-07,True
+55,Bruno Lima,Uberlândia,MG,Varejo,2022-03-23,True
+56,Diego Costa,Campinas,SP,PME,2024-04-12,True
+57,Henrique Ribeiro,Londrina,PR,Varejo,2022-12-29,True
+58,Karen Barbosa,Feira de Santana,BA,Enterprise,2025-10-03,True
+59,Felipe Barbosa,Santos,SP,PME,2024-02-23,True
+60,Gabriela Ribeiro,Uberlândia,MG,Enterprise,2023-12-18,True
+61,Ana Gomes,Campinas,SP,Varejo,2023-11-04,True
+62,Lucas Gomes,Vitória da Conquista,BA,Varejo,2025-10-23,True
+63,Ana Santos,Caruaru,PE,PME,2023-06-19,True
+64,Diego Carvalho,Rio de Janeiro,RJ,Varejo,2023-10-05,True
+65,Mariana Mendes,Recife,PE,PME,2023-06-06,False
+66,Rafaela Mendes,Belo Horizonte,MG,PME,2025-10-05,True
+67,Karen Carvalho,Belo Horizonte,MG,Varejo,2022-09-13,True
+68,Nicolas Costa,Petrópolis,RJ,Varejo,2023-08-29,True
+69,Mariana Gomes,Sorocaba,SP,PME,2022-12-23,True
+70,Samuel Ribeiro,Nova Iguaçu,RJ,Varejo,2023-08-11,True
+71,Olivia Almeida,Caruaru,PE,Varejo,2023-03-14,True
+72,Carla Lima,Londrina,PR,Varejo,2025-07-20,True
+73,João Souza,Feira de Santana,BA,PME,2022-10-29,False
+74,Vinicius Ribeiro,Sorocaba,SP,PME,2024-07-21,True
+75,Mariana Almeida,Londrina,PR,Varejo,2022-10-30,True
+76,Nicolas Souza,Salvador,BA,Varejo,2024-11-26,True
+77,Diego Almeida,Olinda,PE,Varejo,2024-08-09,True
+78,Olivia Carvalho,Caruaru,PE,PME,2024-10-30,True
+79,Felipe Martins,Petrolina,PE,PME,2024-07-10,True
+80,Rafaela Almeida,Santos,SP,PME,2023-07-17,True
+81,Henrique Lima,Maringá,PR,Varejo,2025-01-11,True
+82,Mariana Martins,Campinas,SP,Varejo,2023-03-15,False
+83,Samuel Almeida,Contagem,MG,Varejo,2023-02-28,True
+84,Tatiana Pereira,Belo Horizonte,MG,Varejo,2023-12-22,True
+85,Samuel Martins,Juiz de Fora,MG,PME,2025-05-20,True
+86,Isabela Pereira,Uberlândia,MG,Varejo,2024-03-07,True
+87,Felipe Ribeiro,Cascavel,PR,Varejo,2022-09-19,True
+88,Mariana Carvalho,Recife,PE,PME,2022-02-25,True
+89,Olivia Oliveira,Uberlândia,MG,Varejo,2024-02-16,True
+90,Karen Barbosa,Contagem,MG,PME,2023-07-24,True
+91,Carla Almeida,Contagem,MG,Varejo,2025-01-09,False
+92,Carla Barbosa,Niterói,RJ,Enterprise,2022-03-24,True
+93,Ana Carvalho,Campinas,SP,Varejo,2022-09-16,True
+94,Olivia Martins,Feira de Santana,BA,Varejo,2024-01-26,True
+95,Felipe Lima,Recife,PE,Varejo,2022-02-22,True
+96,Mariana Martins,Petrolina,PE,Varejo,2025-04-27,True
+97,Diego Martins,Londrina,PR,PME,2025-05-14,True
+98,Lucas Rocha,Recife,PE,Varejo,2024-01-29,False
+99,Ana Ribeiro,Maringá,PR,Varejo,2024-09-30,True
+100,Eduarda Pereira,Nova Iguaçu,RJ,Varejo,2024-12-04,True
+101,Olivia Pereira,Nova Iguaçu,RJ,PME,2025-04-28,True
+102,Isabela Mendes,São Paulo,SP,Varejo,2024-08-09,True
+103,Karen Silva,Cascavel,PR,Varejo,2023-10-28,True
+104,Isabela Costa,Santos,SP,Varejo,2025-05-05,True
+105,Rafaela Souza,Rio de Janeiro,RJ,Varejo,2024-04-12,True
+106,Paulo Almeida,Sorocaba,SP,PME,2022-07-10,True
+107,João Gomes,Uberlândia,MG,PME,2024-08-27,True
+108,Samuel Costa,Nova Iguaçu,RJ,Varejo,2024-07-18,True
+109,Diego Martins,Niterói,RJ,Varejo,2022-09-02,True
+110,Gabriela Souza,Londrina,PR,PME,2023-07-21,True
+111,Diego Ribeiro,Caruaru,PE,Varejo,2023-04-11,True
+112,Samuel Oliveira,Rio de Janeiro,RJ,Varejo,2022-04-22,True
+113,Paulo Santos,Londrina,PR,PME,2025-03-21,True
+114,Karen Oliveira,Juiz de Fora,MG,Enterprise,2023-06-02,True
+115,Carla Pereira,Belo Horizonte,MG,Varejo,2025-03-27,True
+116,Eduarda Barbosa,Feira de Santana,BA,PME,2023-09-15,True
+117,Samuel Barbosa,São Paulo,SP,Varejo,2025-05-05,True
+118,Olivia Mendes,Sorocaba,SP,Varejo,2025-04-20,True
+119,Vinicius Martins,Rio de Janeiro,RJ,Varejo,2023-03-02,True
+120,Felipe Souza,Rio de Janeiro,RJ,Varejo,2022-06-03,True
+121,Vinicius Almeida,Juiz de Fora,MG,Varejo,2023-04-20,True
+122,Carla Gomes,Nova Iguaçu,RJ,Varejo,2023-06-26,True
+123,Nicolas Santos,Londrina,PR,Varejo,2025-08-19,True
+124,Carla Silva,Niterói,RJ,Varejo,2023-09-22,True
+125,Olivia Santos,Caruaru,PE,Varejo,2023-09-15,True
+126,Olivia Santos,Nova Iguaçu,RJ,PME,2024-06-03,True
+127,Ana Santos,Caruaru,PE,Varejo,2025-10-12,True
+128,Isabela Carvalho,Recife,PE,Varejo,2022-12-25,True
+129,Isabela Oliveira,Cascavel,PR,Enterprise,2024-06-11,True
+130,Paulo Costa,Belo Horizonte,MG,Varejo,2023-10-20,True
+131,Nicolas Martins,Santos,SP,Varejo,2025-09-18,True
+132,Olivia Santos,Recife,PE,Varejo,2023-10-25,True
+133,Samuel Almeida,Belo Horizonte,MG,Varejo,2023-01-20,True
+134,Olivia Barbosa,Petrolina,PE,Varejo,2023-07-01,True
+135,Paulo Santos,Nova Iguaçu,RJ,Varejo,2025-07-14,True
+136,João Rocha,Campinas,SP,Varejo,2024-04-15,True
+137,Diego Gomes,Camaçari,BA,PME,2024-10-17,True
+138,Nicolas Ribeiro,Petrópolis,RJ,Varejo,2024-08-25,True
+139,Mariana Souza,Olinda,PE,Enterprise,2024-11-06,True
+140,Isabela Barbosa,São Paulo,SP,PME,2024-04-29,True
+141,Ana Lima,Caruaru,PE,PME,2025-04-17,True
+142,Eduarda Almeida,Cascavel,PR,Varejo,2023-12-08,True
+143,Olivia Mendes,Petrolina,PE,Varejo,2023-01-22,True
+144,Henrique Ribeiro,Sorocaba,SP,PME,2022-03-31,True
+145,Mariana Gomes,Juiz de Fora,MG,PME,2025-08-28,True
+146,Eduarda Rocha,Belo Horizonte,MG,Enterprise,2023-11-11,True
+147,Rafaela Mendes,Belo Horizonte,MG,Varejo,2022-10-23,True
+148,Carla Almeida,Londrina,PR,PME,2023-06-27,True
+149,Carla Ribeiro,Cascavel,PR,Varejo,2025-10-13,True
+150,Paulo Ribeiro,Contagem,MG,Varejo,2025-06-18,False
+151,Henrique Martins,Maringá,PR,Varejo,2022-07-21,True
+152,Olivia Oliveira,Curitiba,PR,PME,2022-03-01,False
+153,Lucas Costa,Vitória da Conquista,BA,Varejo,2023-05-16,True
+154,Felipe Oliveira,Olinda,PE,Varejo,2024-02-23,True
+155,Tatiana Oliveira,Sorocaba,SP,Varejo,2025-07-30,True
+156,Olivia Mendes,Rio de Janeiro,RJ,Varejo,2025-01-24,True
+157,Tatiana Lima,Contagem,MG,PME,2024-05-18,True
+158,Gabriela Pereira,Contagem,MG,PME,2022-08-07,True
+159,Tatiana Lima,Caruaru,PE,Enterprise,2023-08-28,False
+160,Isabela Silva,Cascavel,PR,PME,2022-04-11,True
+161,João Barbosa,Cascavel,PR,PME,2025-05-28,True
+162,Vinicius Lima,Campinas,SP,PME,2025-09-12,True
+163,Bruno Lima,São Paulo,SP,PME,2022-03-10,True
+164,Carla Mendes,Londrina,PR,Varejo,2024-04-30,True
+165,Rafaela Rocha,Santos,SP,Enterprise,2022-12-03,True
+166,Karen Barbosa,Contagem,MG,Varejo,2022-06-04,True
+167,Samuel Costa,Sorocaba,SP,Varejo,2024-03-19,False
+168,Olivia Costa,Recife,PE,PME,2025-10-08,True
+169,Diego Gomes,Contagem,MG,Varejo,2022-02-21,True
+170,Vinicius Souza,Caruaru,PE,PME,2025-07-25,True
+171,Nicolas Santos,Maringá,PR,Varejo,2022-03-18,True
+172,Diego Souza,Belo Horizonte,MG,PME,2022-10-05,True
+173,Tatiana Martins,Nova Iguaçu,RJ,PME,2024-04-29,True
+174,Isabela Silva,Juiz de Fora,MG,PME,2023-03-21,True
+175,Diego Gomes,Santos,SP,Varejo,2025-08-13,True
+176,Gabriela Santos,Contagem,MG,Enterprise,2024-07-20,True
+177,Bruno Barbosa,São Paulo,SP,Varejo,2022-09-15,True
+178,Samuel Souza,São Paulo,SP,PME,2023-04-23,True
+179,Isabela Ribeiro,São Paulo,SP,Enterprise,2022-09-24,True
+180,Ana Oliveira,São Paulo,SP,Varejo,2023-05-03,True
+181,Isabela Silva,Feira de Santana,BA,Varejo,2024-05-12,True
+182,Paulo Almeida,Curitiba,PR,PME,2024-11-17,True
+183,Vinicius Silva,Uberlândia,MG,PME,2025-09-11,True
+184,Bruno Almeida,Belo Horizonte,MG,PME,2024-05-23,True
+185,Carla Mendes,Juiz de Fora,MG,Varejo,2025-05-30,True
+186,Vinicius Gomes,Santos,SP,PME,2023-10-28,True
+187,Olivia Rocha,Caruaru,PE,PME,2022-07-23,True
+188,Nicolas Almeida,Feira de Santana,BA,PME,2024-04-27,True
+189,Nicolas Martins,Juiz de Fora,MG,Varejo,2024-05-24,True
+190,Eduarda Gomes,Petrópolis,RJ,Enterprise,2022-05-18,True
+191,Nicolas Santos,Salvador,BA,PME,2024-02-03,True
+192,Tatiana Rocha,Recife,PE,PME,2025-10-04,True
+193,Bruno Lima,Nova Iguaçu,RJ,PME,2023-12-22,True
+194,Eduarda Gomes,Olinda,PE,Varejo,2022-08-10,True
+195,Diego Barbosa,Caruaru,PE,Varejo,2023-04-09,True
+196,Vinicius Mendes,Recife,PE,PME,2023-07-02,False
+197,Karen Costa,Petrópolis,RJ,Varejo,2022-10-21,True
+198,Eduarda Martins,Belo Horizonte,MG,PME,2022-03-04,True
+199,Mariana Pereira,Olinda,PE,Varejo,2022-11-19,True
+200,Tatiana Carvalho,Maringá,PR,Varejo,2022-04-18,True
+201,Carla Lima,Recife,PE,Varejo,2024-05-18,True
+202,Isabela Souza,Juiz de Fora,MG,PME,2022-08-22,True
+203,Tatiana Almeida,Vitória da Conquista,BA,Varejo,2023-09-24,False
+204,Ana Souza,Belo Horizonte,MG,Varejo,2023-03-09,True
+205,Karen Santos,Petrópolis,RJ,Varejo,2024-05-31,True
+206,Rafaela Rocha,Uberlândia,MG,PME,2023-12-27,False
+207,Nicolas Silva,Curitiba,PR,Varejo,2022-06-09,True
+208,Tatiana Pereira,Petrolina,PE,PME,2024-05-05,True
+209,Karen Oliveira,Belo Horizonte,MG,PME,2025-06-19,True
+210,Carla Pereira,Maringá,PR,PME,2023-05-14,True
+211,Mariana Ribeiro,Belo Horizonte,MG,Varejo,2023-11-27,True
+212,Rafaela Gomes,São Paulo,SP,Varejo,2024-11-10,True
+213,Eduarda Souza,Petrópolis,RJ,Varejo,2023-06-09,True
+214,Carla Oliveira,Olinda,PE,Enterprise,2025-07-10,True
+215,Tatiana Gomes,Petrolina,PE,PME,2025-07-03,True
+216,Eduarda Almeida,Maringá,PR,Varejo,2024-06-24,True
+217,Lucas Rocha,Rio de Janeiro,RJ,Varejo,2024-08-03,True
+218,João Santos,Vitória da Conquista,BA,PME,2022-07-04,True
+219,Olivia Carvalho,Petrolina,PE,PME,2022-03-26,True
+220,Karen Carvalho,Olinda,PE,Varejo,2022-11-05,True
+221,Karen Martins,Belo Horizonte,MG,Varejo,2025-08-16,True
+222,Olivia Rocha,Sorocaba,SP,Varejo,2022-11-22,True
+223,Nicolas Barbosa,Nova Iguaçu,RJ,Varejo,2025-05-09,False
+224,Carla Costa,Maringá,PR,Varejo,2025-10-21,True
+225,Karen Santos,Niterói,RJ,PME,2022-10-17,True
+226,Eduarda Carvalho,Nova Iguaçu,RJ,PME,2022-06-23,True
+227,Eduarda Gomes,Contagem,MG,PME,2024-12-14,True
+228,Rafaela Costa,Cascavel,PR,Varejo,2023-09-25,True
+229,Paulo Souza,Santos,SP,Varejo,2022-10-09,True
+230,Rafaela Barbosa,Rio de Janeiro,RJ,Varejo,2024-12-14,False
+231,Vinicius Pereira,Niterói,RJ,Varejo,2023-01-06,True
+232,Olivia Silva,Olinda,PE,Varejo,2025-10-17,True
+233,Olivia Souza,Contagem,MG,Varejo,2023-09-26,True
+234,Lucas Gomes,Uberlândia,MG,Enterprise,2024-06-21,True
+235,Rafaela Rocha,Nova Iguaçu,RJ,Varejo,2022-11-28,True
+236,Isabela Silva,Olinda,PE,PME,2024-01-31,True
+237,João Santos,Salvador,BA,PME,2023-07-13,True
+238,Nicolas Santos,Olinda,PE,Enterprise,2023-03-31,True
+239,Nicolas Silva,Rio de Janeiro,RJ,Varejo,2024-02-05,True
+240,Henrique Silva,Vitória da Conquista,BA,Varejo,2022-07-22,True
+241,Eduarda Oliveira,Maringá,PR,Varejo,2024-08-25,True
+242,Olivia Carvalho,Sorocaba,SP,Varejo,2022-06-12,False
+243,Samuel Martins,Campinas,SP,PME,2024-05-16,True
+244,João Santos,Niterói,RJ,Varejo,2024-05-09,True
+245,Carla Santos,Petrolina,PE,PME,2024-10-20,True
+246,Eduarda Lima,Feira de Santana,BA,Varejo,2025-06-13,True
+247,Felipe Gomes,Petrolina,PE,PME,2024-12-08,True
+248,Mariana Ribeiro,Salvador,BA,Varejo,2025-07-25,True
+249,Ana Costa,Petrópolis,RJ,PME,2023-12-08,True
+250,Tatiana Martins,Curitiba,PR,PME,2022-10-01,False
+251,Felipe Ribeiro,Caruaru,PE,PME,2024-08-09,True
+252,Eduarda Santos,Uberlândia,MG,PME,2024-07-26,False
+253,Gabriela Mendes,São Paulo,SP,Varejo,2023-09-28,True
+254,Isabela Silva,Petrolina,PE,PME,2023-01-27,True
+255,Isabela Santos,Vitória da Conquista,BA,PME,2024-06-13,True
+256,Mariana Costa,Cascavel,PR,Enterprise,2024-10-13,True
+257,Carla Martins,Petrópolis,RJ,Varejo,2024-05-31,True
+258,Karen Santos,Santos,SP,Varejo,2025-09-15,True
+259,Felipe Martins,Juiz de Fora,MG,Varejo,2024-07-04,False
+260,Isabela Gomes,Nova Iguaçu,RJ,Enterprise,2022-04-28,False
+261,Lucas Rocha,Cascavel,PR,PME,2025-10-23,True
+262,Vinicius Gomes,Feira de Santana,BA,PME,2022-03-13,True
+263,Lucas Pereira,Santos,SP,Enterprise,2022-03-08,True
+264,Lucas Costa,Cascavel,PR,Varejo,2022-06-07,True
+265,Mariana Costa,Caruaru,PE,PME,2023-05-27,True
+266,Paulo Rocha,Feira de Santana,BA,Varejo,2025-02-24,True
+267,Gabriela Carvalho,Nova Iguaçu,RJ,Varejo,2024-10-02,True
+268,Olivia Oliveira,São Paulo,SP,PME,2024-06-30,True
+269,Lucas Martins,Maringá,PR,Varejo,2025-01-15,True
+270,Felipe Barbosa,Niterói,RJ,Varejo,2023-04-05,True
+271,Henrique Barbosa,Campinas,SP,Varejo,2024-01-10,True
+272,Samuel Oliveira,Nova Iguaçu,RJ,PME,2022-06-26,False
+273,Rafaela Pereira,Juiz de Fora,MG,PME,2025-03-23,False
+274,Olivia Almeida,Rio de Janeiro,RJ,PME,2023-12-07,True
+275,Eduarda Pereira,Olinda,PE,Varejo,2022-04-24,True
+276,João Oliveira,Olinda,PE,Varejo,2023-04-07,True
+277,Carla Lima,Caruaru,PE,Varejo,2025-02-02,True
+278,Vinicius Rocha,Maringá,PR,Varejo,2025-08-05,True
+279,Felipe Gomes,Olinda,PE,PME,2025-05-24,True
+280,Ana Santos,Recife,PE,Varejo,2025-08-06,True
+281,Tatiana Pereira,Niterói,RJ,PME,2022-03-04,True
+282,João Almeida,Maringá,PR,Varejo,2024-04-11,True
+283,Felipe Almeida,Salvador,BA,Varejo,2024-08-09,True
+284,Karen Ribeiro,Olinda,PE,PME,2023-12-09,True
+285,Rafaela Rocha,Santos,SP,Varejo,2023-05-11,True
+286,Henrique Oliveira,Nova Iguaçu,RJ,Varejo,2023-08-18,True
+287,Henrique Ribeiro,Petrolina,PE,Enterprise,2023-11-02,True
+288,Gabriela Barbosa,Maringá,PR,Varejo,2024-11-20,True
+289,Ana Santos,Nova Iguaçu,RJ,Enterprise,2024-11-01,True
+290,Tatiana Costa,Campinas,SP,Varejo,2023-07-31,True
+291,João Rocha,Cascavel,PR,Varejo,2022-08-09,True
+292,Mariana Costa,Petrópolis,RJ,Varejo,2022-04-15,True
+293,Samuel Lima,Santos,SP,Varejo,2024-10-29,True
+294,Vinicius Gomes,Caruaru,PE,PME,2022-09-21,True
+295,Karen Rocha,Contagem,MG,Enterprise,2022-10-23,True
+296,Rafaela Silva,Petrolina,PE,Varejo,2022-10-08,True
+297,Eduarda Carvalho,Juiz de Fora,MG,PME,2022-10-14,True
+298,Felipe Pereira,Caruaru,PE,Enterprise,2023-09-05,True
+299,Tatiana Lima,Petrolina,PE,Varejo,2022-02-04,True
+300,Nicolas Carvalho,Curitiba,PR,Varejo,2025-07-12,False
+301,Tatiana Carvalho,Contagem,MG,Varejo,2022-04-16,True
+302,Eduarda Ribeiro,Sorocaba,SP,PME,2022-03-06,True
+303,Gabriela Silva,Curitiba,PR,Varejo,2024-05-07,True
+304,Nicolas Rocha,Londrina,PR,PME,2024-08-23,True
+305,Eduarda Rocha,Curitiba,PR,Varejo,2023-10-28,True
+306,Karen Oliveira,Juiz de Fora,MG,Varejo,2024-12-27,True
+307,Vinicius Almeida,Petrópolis,RJ,Varejo,2023-05-20,True
+308,João Barbosa,Niterói,RJ,Varejo,2023-03-01,True
+309,Paulo Costa,Contagem,MG,PME,2023-07-15,True
+310,Mariana Ribeiro,Petrolina,PE,Varejo,2022-10-27,True
+311,Lucas Mendes,Rio de Janeiro,RJ,Varejo,2023-06-10,True
+312,Samuel Lima,Campinas,SP,Enterprise,2023-07-11,True
+313,Henrique Silva,Olinda,PE,PME,2024-12-23,True
+314,Diego Pereira,São Paulo,SP,Varejo,2024-08-25,True
+315,Samuel Mendes,São Paulo,SP,Varejo,2025-08-30,True
+316,Gabriela Barbosa,Juiz de Fora,MG,Enterprise,2023-10-20,True
+317,Tatiana Souza,Salvador,BA,Varejo,2022-03-18,True
+318,Felipe Mendes,Sorocaba,SP,Enterprise,2024-03-24,True
+319,Bruno Silva,Santos,SP,Varejo,2025-05-19,True
+320,Olivia Gomes,Petrópolis,RJ,Varejo,2024-10-08,True
+321,Isabela Souza,Sorocaba,SP,PME,2023-11-09,True
+322,Felipe Silva,Contagem,MG,PME,2023-08-28,True
+323,Vinicius Ribeiro,Campinas,SP,PME,2024-04-10,True
+324,Carla Pereira,Caruaru,PE,PME,2023-01-14,True
+325,Henrique Silva,Contagem,MG,Varejo,2023-04-28,True
+326,João Carvalho,Petrópolis,RJ,PME,2022-01-24,True
+327,Bruno Gomes,Niterói,RJ,Varejo,2023-09-21,True
+328,Diego Gomes,Maringá,PR,Enterprise,2023-08-28,True
+329,Eduarda Almeida,Campinas,SP,Varejo,2025-05-25,True
+330,Samuel Barbosa,Cascavel,PR,PME,2023-03-24,True
+331,Rafaela Almeida,Curitiba,PR,Varejo,2024-01-11,False
+332,Bruno Ribeiro,Recife,PE,Varejo,2024-11-01,True
+333,Felipe Costa,Olinda,PE,PME,2024-06-23,True
+334,Carla Mendes,Sorocaba,SP,Varejo,2022-04-24,True
+335,Olivia Carvalho,Petrolina,PE,Varejo,2024-08-04,True
+336,Mariana Lima,Rio de Janeiro,RJ,PME,2023-03-23,True
+337,Lucas Martins,Camaçari,BA,Varejo,2022-05-04,True
+338,Bruno Lima,Camaçari,BA,Varejo,2022-10-05,True
+339,Lucas Mendes,Cascavel,PR,Varejo,2024-02-13,True
+340,Lucas Santos,Londrina,PR,Varejo,2025-01-05,True
+341,Ana Barbosa,Campinas,SP,Varejo,2023-09-04,True
+342,Samuel Pereira,Cascavel,PR,PME,2023-05-22,True
+343,Gabriela Mendes,Santos,SP,PME,2022-08-20,False
+344,Vinicius Barbosa,Cascavel,PR,Enterprise,2022-02-02,True
+345,Vinicius Silva,Salvador,BA,Varejo,2025-10-08,True
+346,Bruno Pereira,Feira de Santana,BA,Varejo,2025-01-10,True
+347,Rafaela Lima,Feira de Santana,BA,Varejo,2025-03-25,True
+348,Henrique Lima,Caruaru,PE,PME,2025-09-14,True
+349,Isabela Silva,Contagem,MG,PME,2025-04-26,True
+350,Samuel Almeida,Sorocaba,SP,Varejo,2023-12-07,True
+351,Rafaela Costa,Cascavel,PR,PME,2024-04-16,True
+352,Samuel Almeida,Uberlândia,MG,Varejo,2023-04-07,True
+353,Olivia Mendes,Londrina,PR,Varejo,2024-04-25,True
+354,Mariana Souza,Olinda,PE,Varejo,2023-11-08,True
+355,Carla Rocha,Contagem,MG,PME,2023-01-26,False
+356,Carla Souza,Belo Horizonte,MG,PME,2025-04-18,True
+357,Paulo Souza,Olinda,PE,PME,2023-11-13,True
+358,Gabriela Martins,Feira de Santana,BA,Varejo,2024-09-07,True
+359,Mariana Mendes,Londrina,PR,Varejo,2023-10-21,True
+360,Samuel Gomes,Juiz de Fora,MG,Varejo,2023-06-20,True
+361,Diego Barbosa,Juiz de Fora,MG,Enterprise,2024-08-19,True
+362,Lucas Costa,Niterói,RJ,Varejo,2025-02-26,True
+363,Ana Lima,Londrina,PR,PME,2025-04-11,True
+364,Eduarda Souza,Contagem,MG,Varejo,2024-02-17,True
+365,Samuel Gomes,Sorocaba,SP,Enterprise,2023-11-23,True
+366,Olivia Oliveira,Juiz de Fora,MG,PME,2023-12-23,True
+367,Felipe Mendes,Cascavel,PR,PME,2025-08-07,True
+368,Carla Ribeiro,Recife,PE,PME,2022-01-14,True
+369,Carla Martins,Londrina,PR,Varejo,2023-03-24,True
+370,Vinicius Gomes,Rio de Janeiro,RJ,PME,2025-06-16,True
+371,Ana Silva,Cascavel,PR,Varejo,2024-04-22,False
+372,Samuel Lima,Caruaru,PE,Varejo,2025-10-12,True
+373,Diego Rocha,São Paulo,SP,Varejo,2023-01-29,True
+374,Isabela Barbosa,Petrópolis,RJ,Varejo,2024-02-04,True
+375,Henrique Lima,Uberlândia,MG,PME,2022-06-15,True
+376,Carla Pereira,Curitiba,PR,Varejo,2025-02-05,True
+377,Felipe Santos,Curitiba,PR,Varejo,2024-06-07,True
+378,Rafaela Mendes,Rio de Janeiro,RJ,Varejo,2023-03-09,True
+379,Isabela Silva,Cascavel,PR,Enterprise,2023-07-29,True
+380,Felipe Mendes,Recife,PE,PME,2022-02-02,True
+381,Mariana Mendes,Olinda,PE,Varejo,2022-11-29,True
+382,Samuel Costa,Petrolina,PE,Varejo,2022-10-14,True
+383,Rafaela Martins,Curitiba,PR,Enterprise,2022-04-20,True
+384,Karen Carvalho,São Paulo,SP,PME,2025-05-04,True
+385,Isabela Barbosa,Rio de Janeiro,RJ,Enterprise,2024-10-01,True
+386,Nicolas Oliveira,Petrolina,PE,PME,2025-09-15,True
+387,Henrique Martins,Caruaru,PE,Varejo,2023-07-03,True
+388,Mariana Costa,Londrina,PR,Varejo,2022-07-07,False
+389,Lucas Barbosa,Nova Iguaçu,RJ,Varejo,2022-09-29,True
+390,Samuel Rocha,Juiz de Fora,MG,Varejo,2022-07-31,False
+391,Vinicius Carvalho,Rio de Janeiro,RJ,PME,2024-02-28,False
+392,Carla Martins,Juiz de Fora,MG,Enterprise,2023-05-13,True
+393,Felipe Oliveira,Sorocaba,SP,Varejo,2023-07-04,True
+394,Nicolas Lima,Feira de Santana,BA,Varejo,2024-09-18,True
+395,Henrique Martins,Petrópolis,RJ,PME,2025-05-01,True
+396,Eduarda Lima,Belo Horizonte,MG,Varejo,2024-03-21,True
+397,Karen Almeida,Petrolina,PE,Varejo,2025-08-26,True
+398,Karen Carvalho,Santos,SP,Enterprise,2023-02-16,True
+399,Karen Lima,Sorocaba,SP,PME,2025-07-20,True
+400,Karen Pereira,Olinda,PE,Varejo,2024-03-15,True
+401,Tatiana Rocha,Olinda,PE,Varejo,2025-01-31,False
+402,Gabriela Almeida,Cascavel,PR,PME,2022-05-22,True
+403,Eduarda Gomes,Juiz de Fora,MG,Varejo,2023-06-02,True
+404,Mariana Santos,Cascavel,PR,Varejo,2025-05-09,True
+405,Samuel Silva,Juiz de Fora,MG,PME,2024-01-07,True
+406,Diego Barbosa,Recife,PE,Varejo,2025-09-23,True
+407,Tatiana Gomes,Curitiba,PR,PME,2024-03-29,True
+408,Diego Silva,Nova Iguaçu,RJ,Varejo,2023-03-31,True
+409,Olivia Costa,Olinda,PE,Varejo,2025-10-23,True
+410,Lucas Silva,Olinda,PE,Varejo,2023-08-29,True
+411,Eduarda Costa,Salvador,BA,Varejo,2024-07-21,True
+412,Lucas Almeida,Petrolina,PE,Varejo,2024-07-15,True
+413,Diego Silva,Rio de Janeiro,RJ,PME,2025-08-20,True
+414,Rafaela Oliveira,Campinas,SP,PME,2023-11-09,True
+415,Mariana Gomes,Uberlândia,MG,Varejo,2025-08-04,True
+416,Vinicius Mendes,Belo Horizonte,MG,Varejo,2025-04-27,True
+417,Gabriela Lima,Feira de Santana,BA,PME,2022-05-09,True
+418,Lucas Costa,Olinda,PE,Varejo,2022-08-22,True
+419,Vinicius Pereira,Contagem,MG,PME,2025-04-17,True
+420,Vinicius Oliveira,Nova Iguaçu,RJ,PME,2023-09-02,True
+421,Eduarda Costa,Recife,PE,Varejo,2023-09-18,True
+422,Rafaela Pereira,Niterói,RJ,Varejo,2022-10-10,True
+423,Paulo Gomes,Uberlândia,MG,Varejo,2025-08-14,True
+424,Paulo Lima,Campinas,SP,Varejo,2023-10-07,True
+425,Lucas Silva,Recife,PE,Varejo,2023-02-04,True
+426,Nicolas Gomes,Petrolina,PE,Varejo,2024-06-28,True
+427,Henrique Lima,Salvador,BA,Varejo,2023-04-06,True
+428,Tatiana Martins,Sorocaba,SP,PME,2024-10-11,True
+429,Isabela Barbosa,Salvador,BA,Varejo,2024-01-22,True
+430,Samuel Souza,Camaçari,BA,Enterprise,2022-07-29,True
+431,João Ribeiro,Londrina,PR,Enterprise,2024-07-10,True
+432,Diego Barbosa,Camaçari,BA,PME,2023-03-06,True
+433,Vinicius Gomes,Caruaru,PE,Varejo,2025-06-15,True
+434,Bruno Carvalho,Campinas,SP,Varejo,2023-07-30,True
+435,João Lima,Santos,SP,PME,2024-11-19,True
+436,Eduarda Barbosa,Curitiba,PR,PME,2022-05-02,True
+437,Eduarda Souza,Londrina,PR,Varejo,2023-10-22,True
+438,Paulo Oliveira,Cascavel,PR,PME,2023-07-05,True
+439,Carla Gomes,Juiz de Fora,MG,PME,2022-07-10,True
+440,Lucas Almeida,Maringá,PR,Enterprise,2023-11-02,True
+441,Olivia Gomes,Curitiba,PR,PME,2024-01-04,True
+442,Gabriela Pereira,Petrolina,PE,PME,2024-10-10,True
+443,Samuel Carvalho,Petrópolis,RJ,Varejo,2024-09-20,True
+444,Bruno Santos,Curitiba,PR,PME,2024-07-30,False
+445,Olivia Silva,Sorocaba,SP,Enterprise,2024-05-26,True
+446,João Oliveira,Londrina,PR,PME,2023-07-16,True
+447,Carla Costa,Petrópolis,RJ,PME,2025-08-21,True
+448,Henrique Pereira,Contagem,MG,PME,2022-07-14,False
+449,Eduarda Carvalho,Belo Horizonte,MG,Varejo,2025-10-24,True
+450,Diego Ribeiro,Vitória da Conquista,BA,Varejo,2022-09-28,True
+451,Carla Martins,Sorocaba,SP,PME,2022-07-31,True
+452,Mariana Barbosa,Niterói,RJ,PME,2022-09-30,True
+453,Carla Rocha,Londrina,PR,PME,2025-06-03,True
+454,Gabriela Gomes,Contagem,MG,PME,2024-04-23,True
+455,Carla Mendes,Uberlândia,MG,Varejo,2022-09-10,True
+456,Nicolas Costa,Contagem,MG,PME,2023-05-23,True
+457,Samuel Carvalho,Feira de Santana,BA,PME,2025-05-29,True
+458,João Souza,Curitiba,PR,Varejo,2024-11-09,True
+459,Bruno Barbosa,Contagem,MG,PME,2023-05-06,True
+460,Paulo Gomes,Feira de Santana,BA,PME,2024-12-17,True
+461,Karen Oliveira,Vitória da Conquista,BA,Varejo,2025-03-10,True
+462,Paulo Barbosa,Olinda,PE,Varejo,2025-04-17,False
+463,Bruno Mendes,Niterói,RJ,Varejo,2024-03-26,True
+464,Nicolas Martins,Cascavel,PR,Varejo,2025-08-04,True
+465,Isabela Santos,Olinda,PE,Varejo,2024-11-13,True
+466,Mariana Carvalho,Santos,SP,PME,2025-08-23,True
+467,Nicolas Martins,Vitória da Conquista,BA,Enterprise,2023-05-04,False
+468,Diego Almeida,Camaçari,BA,PME,2022-04-23,True
+469,Diego Silva,Londrina,PR,PME,2022-01-24,True
+470,Felipe Costa,Petrópolis,RJ,Varejo,2023-07-05,True
+471,Karen Barbosa,Salvador,BA,Varejo,2024-12-08,False
+472,Paulo Almeida,Curitiba,PR,Varejo,2022-04-24,True
+473,Lucas Oliveira,Olinda,PE,Varejo,2022-07-30,True
+474,Henrique Martins,Curitiba,PR,Varejo,2022-04-01,True
+475,Bruno Almeida,Feira de Santana,BA,Varejo,2022-11-04,True
+476,Henrique Costa,Camaçari,BA,Varejo,2023-10-18,True
+477,Diego Rocha,Vitória da Conquista,BA,PME,2022-04-18,True
+478,Mariana Santos,Recife,PE,PME,2023-08-02,True
+479,Carla Rocha,Petrópolis,RJ,Varejo,2024-01-26,True
+480,Vinicius Souza,Caruaru,PE,Varejo,2025-04-26,True
+481,Eduarda Silva,Campinas,SP,Enterprise,2022-02-18,True
+482,Karen Silva,Rio de Janeiro,RJ,PME,2024-02-10,True
+483,Diego Souza,Maringá,PR,Varejo,2023-05-03,True
+484,Isabela Santos,Feira de Santana,BA,Varejo,2023-04-20,True
+485,Lucas Almeida,Petrolina,PE,Enterprise,2022-06-23,True
+486,Mariana Santos,Olinda,PE,PME,2022-05-08,True
+487,João Lima,Campinas,SP,PME,2024-03-15,True
+488,Karen Almeida,Maringá,PR,Varejo,2022-06-02,True
+489,Eduarda Santos,São Paulo,SP,Varejo,2024-08-12,True
+490,Gabriela Almeida,Vitória da Conquista,BA,Varejo,2023-06-27,True
+491,João Ribeiro,Feira de Santana,BA,PME,2025-05-20,False
+492,Carla Martins,Niterói,RJ,Varejo,2023-12-30,True
+493,Isabela Ribeiro,Vitória da Conquista,BA,Enterprise,2022-03-05,True
+494,Diego Almeida,Uberlândia,MG,Varejo,2022-10-14,True
+495,Eduarda Souza,Feira de Santana,BA,PME,2024-02-02,True
+496,Tatiana Carvalho,Curitiba,PR,Varejo,2022-06-03,False
+497,Olivia Barbosa,Feira de Santana,BA,Varejo,2023-11-11,True
+498,Felipe Mendes,Belo Horizonte,MG,PME,2024-03-19,True
+499,Felipe Costa,Juiz de Fora,MG,Varejo,2023-01-19,True
+500,Bruno Carvalho,Uberlândia,MG,PME,2023-05-19,True
