@@ -1,2 +1,3 @@
 datasets/07_joins/large_csvs
 .env 
+notebooks/CREATE TABLE public.sql
