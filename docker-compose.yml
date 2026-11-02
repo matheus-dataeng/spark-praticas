@@ -12,7 +12,8 @@ services:
     working_dir: /workspace
 
     ports:
-      - "8888:8888"
+    - "8888:8888"
+    - "127.0.0.1:4040:4040"
 
     depends_on:
       postgres:

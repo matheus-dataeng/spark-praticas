@@ -103,7 +103,8 @@ A contagem foi feita **antes da agregação por partição**, usando:
 (
     df_fato_large2
     .withColumn("spark_partition", F.spark_partition_id())
-    .groupBy("spark_partition").count()
+    .groupBy("spark_partition")
+    .count()
     .orderBy("spark_partition")
     .show()
 )

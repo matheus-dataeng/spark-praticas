@@ -10,9 +10,10 @@ No notebook foi criado um DataFrame com:
 
 ```python
 df2 = (
-    df.filter(F.col("idade") > 30)
-      .select("nome", "idade", "cidade")
-      .withColumn("idade_futura", F.col("idade") + 1)
+    df
+    .filter(F.col("idade") > 30)
+    .select("nome", "idade", "cidade")
+    .withColumn("idade_futura", F.col("idade") + 1)
 )
 ```
 
@@ -42,9 +43,12 @@ Foram construídas duas consultas sobre `clientes.csv`:
 
 ```python
 # A: três filtros encadeados
-df_a = (df.filter(F.col("idade") > 30)
-          .filter(F.col("ativo") == True)
-          .filter(F.col("renda_mensal") > 5000))
+df_a = (
+    df
+    .filter(F.col("idade") > 30)
+    .filter(F.col("ativo") == True)
+    .filter(F.col("renda_mensal") > 5000)
+)
 
 # B: as três condições juntas
 df_b = df.filter(

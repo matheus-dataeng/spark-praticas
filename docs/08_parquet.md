@@ -20,8 +20,10 @@ Essa figura é conceitual: Parquet agrupa dados por **Row Groups**, e dentro de 
 O notebook leu `/workspace/datasets/08_parquet/pedidos.csv` e exibiu um schema com `pedido_id`, `cliente_id`, `data_pedido`, `status`, `canal` e `valor_total`. Em seguida:
 
 ```python
-df_csv.write.mode("overwrite").parquet(
-    "/workspace/datasets/08_parquet/arquivos_parquet"
+(
+    df_csv.write
+    .mode("overwrite")
+    .parquet("/workspace/datasets/08_parquet/arquivos_parquet")
 )
 df_parquet = spark.read.parquet(
     "/workspace/datasets/08_parquet/arquivos_parquet"
@@ -34,9 +36,12 @@ O schema voltou com os tipos correspondentes sem `inferSchema=True`, porque o Pa
 No desafio, o arquivo foi escrito explicitamente com **Snappy**:
 
 ```python
-df_pedidos.write.mode("overwrite") \
-    .option("compression", "snappy") \
+(
+    df_pedidos.write
+    .mode("overwrite")
+    .option("compression", "snappy")
     .parquet("/workspace/datasets/08_parquet/pedidos_parquet_desafio")
+)
 ```
 
 Snappy prioriza boa velocidade de compressão/descompressão, com economia de bytes de armazenamento e I/O. Melhor compressão não implica automaticamente melhor desempenho em todas as consultas, pois entram na conta CPU, tamanho e organização dos dados.
@@ -46,7 +51,11 @@ Snappy prioriza boa velocidade de compressão/descompressão, com economia de by
 A operação:
 
 ```python
-df_parquet.select("cliente_id", "valor_total").explain(True)
+(
+    df_parquet
+    .select("cliente_id", "valor_total")
+    .explain(True)
+)
 ```
 
 mostrou no `FileScan parquet` um `ReadSchema` apenas com `cliente_id` e `valor_total`. A fonte tinha seis colunas, mas a operação precisava de duas.
@@ -63,8 +72,9 @@ O notebook filtrou `valor_total > 500` e inspecionou `explain(True)`:
 
 ```python
 df_pushdown = (
-    df_parquet.select("cliente_id", "valor_total")
-              .filter(F.col("valor_total") > 500)
+    df_parquet
+    .select("cliente_id", "valor_total")
+    .filter(F.col("valor_total") > 500)
 )
 ```
 
@@ -103,9 +113,12 @@ São conceitos relacionados, mas **não idênticos**. E Row Group é **bloco int
 O notebook escreveu:
 
 ```python
-df_csv.write.mode("overwrite") \
-    .partitionBy("status") \
+(
+    df_csv.write
+    .mode("overwrite")
+    .partitionBy("status")
     .parquet("/workspace/datasets/08_parquet/pedidos_por_status")
+)
 ```
 
 A organização física do dataset passa a usar os valores da coluna:

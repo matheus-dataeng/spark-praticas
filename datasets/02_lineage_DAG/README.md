@@ -1,4 +1,3 @@
-# Aula 02 - Lineage e DAG
+# Aula 02 — Lineage e DAG
 
-Arquivos: clientes.csv e pedidos.csv.
-Objetivo: estudar Lineage, DAG e explain().
+Os arquivos `clientes.csv` e `pedidos.csv` são usados nos exercícios da Aula 02 para estudar as dependências entre transformações e interpretar os planos exibidos por `explain()`.

@@ -21,12 +21,13 @@ O `explain(True)` de `df_clientes` mostrou `FileScan csv` com apenas as quatro c
 
 ```python
 df_tratado = (
-    df.withColumn("renda_anual", F.col("renda_mensal") * 12)
-      .withColumn("idade", F.col("idade") + 5)
-      .withColumn(
-          "maior_idade",
-          F.when(F.col("idade") >= 18, "Sim").otherwise("Não")
-      )
+    df
+    .withColumn("renda_anual", F.col("renda_mensal") * 12)
+    .withColumn("idade", F.col("idade") + 5)
+    .withColumn(
+        "maior_idade",
+        F.when(F.col("idade") >= 18, "Sim").otherwise("Não")
+    )
 )
 ```
 

@@ -74,7 +74,11 @@ As operações abaixo não possuem a mesma semântica:
 ```python
 df.limit(10)
 
-df.orderBy(F.col("renda_mensal").desc()).limit(10)
+(
+    df
+    .orderBy(F.col("renda_mensal").desc())
+    .limit(10)
+)
 ```
 
 Na primeira, o Spark retorna até dez registros, **sem garantir quais** quando não existe ordenação explícita. No notebook da aula, isso foi observado pela distinção entre `LocalLimit`/`GlobalLimit` no plano lógico e operadores físicos como `CollectLimit`.
@@ -141,8 +145,9 @@ Requisito: encontrar clientes com **idade ≥ 35** e **renda mensal > 5.000**.
 
 ```python
 df_filtro_and = (
-    df.select("cliente_id", "nome", "idade", "cidade", "renda_mensal")
-      .filter((F.col("idade") >= 35) & (F.col("renda_mensal") > 5000))
+    df
+    .select("cliente_id", "nome", "idade", "cidade", "renda_mensal")
+    .filter((F.col("idade") >= 35) & (F.col("renda_mensal") > 5000))
 )
 ```
 
@@ -158,11 +163,12 @@ Regra: **(Salvador OU Recife) E idade ≥ 30**.
 
 ```python
 df_filtro_and_or = (
-    df.select("cliente_id", "nome", "idade", "cidade", "renda_mensal")
-      .filter(
-          ((F.col("cidade") == "Salvador") | (F.col("cidade") == "Recife"))
-          & (F.col("idade") >= 30)
-      )
+    df
+    .select("cliente_id", "nome", "idade", "cidade", "renda_mensal")
+    .filter(
+        ((F.col("cidade") == "Salvador") | (F.col("cidade") == "Recife"))
+        & (F.col("idade") >= 30)
+    )
 )
 ```
 
@@ -191,9 +197,10 @@ Os clientes foram ordenados por `renda_mensal` decrescente e limitados aos dez p
 
 ```python
 df_limit = (
-    df.select("cliente_id", "nome", "cidade", "renda_mensal")
-      .orderBy(F.col("renda_mensal").desc())
-      .limit(10)
+    df
+    .select("cliente_id", "nome", "cidade", "renda_mensal")
+    .orderBy(F.col("renda_mensal").desc())
+    .limit(10)
 )
 
 df_limit.show()

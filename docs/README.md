@@ -1,38 +1,53 @@
-# Caderno de estudo — Apache Spark e PySpark
+# Caderno de estudos — Apache Spark e PySpark
 
-Esta pasta contém os **materiais técnicos das Aulas 01 a 09**, reescritos a partir dos **notebooks de aula e dos desafios efetivamente enviados**. Diferentemente de um roteiro de objetivos, cada capítulo explica os conceitos, mostra trechos de código utilizados, comenta o que o notebook fez e discute as respostas/resultados dos desafios.
+**Curso concluído em 1º de novembro de 2026**, com dez aulas, dez desafios individuais e um Desafio Final Integrador.
 
-## Índice
+Este caderno reúne os conceitos e os experimentos do curso, dos primeiros DataFrames à análise de performance. Os capítulos acompanham o código dos notebooks e retomam as dúvidas dos desafios, com foco em entender como o Spark processa os dados e quais custos entram nas decisões de Engenharia de Dados.
 
-| Aula | Assunto | Principal evidência prática |
-|---|---|---|
-| [01](01_fundamentos.md) | DataFrames, Column, lazy e actions | CSV de clientes; `show`, `print`, `explain`; renda anual e faixa etária |
-| [02](02_lineage_dag.md) | Lineage, DAG e Catalyst | Filtros separados x combinados; os quatro planos de `explain(True)` |
-| [03](03_transformacoes.md) | `select`, `drop`, `withColumn`, `alias` | Tratamento de clientes; projeções e Column Pruning |
-| [04](04_filtros_ordenacao.md) | Booleanos, ordenação, `limit` | `Filter`, `Sort`, `Exchange`, `CollectLimit` |
-| [05](05_particoes.md) | Spark Partitions, Narrow/Wide, Shuffle | `repartition` e `coalesce`; contagem de partições |
-| [06](06_agregacoes.md) | Agregações e etapas parciais/finais | `HashAggregate`, `Exchange`, `SinglePartition`, `countDistinct` |
-| [07](07_joins.md) | Cardinalidade, integridade, joins físicos | `left_anti`, joins encadeados, 4.834 linhas, Broadcast x SortMerge |
-| [08](08_parquet.md) | Armazenamento colunar e pruning | Conversão CSV→Parquet, Snappy, `ReadSchema`, `PartitionFilters` |
-| [09](09_jdbc_postgresql.md) | JDBC e PostgreSQL em Docker | 2 milhões de linhas, 1 x 4 partições, bounds, fetchsize/batchsize |
+## Aulas e desafios
 
-### Documentos complementares
+| Aula e capítulo | Assuntos principais | Notebook | Desafio |
+| --- | --- | --- | --- |
+| [01 — Fundamentos](01_fundamentos.md) | SparkSession, CSV, schema, DataFrame, Column, actions e Lazy Evaluation | [Aula 01](../notebooks/aula_01_fundamentos.ipynb) | [Desafio 01](../desafios/desafio_01_fundamentos.ipynb) |
+| [02 — Lineage, DAG e Catalyst](02_lineage_dag.md) | Dependências entre operações, otimização e leitura dos planos | [Aula 02](../notebooks/aula_02_lineage_dag.ipynb) | [Desafio 02](../desafios/desafio_02_lineage_DAG.ipynb) |
+| [03 — Transformações](03_transformacoes.md) | Seleção, cálculo e renomeação de colunas; projeções e Column Pruning | [Aula 03](../notebooks/aula_03_transformacoes.ipynb) | [Desafio 03](../desafios/desafio_03_transformacoes.ipynb) |
+| [04 — Filtros e ordenação](04_filtros_ordenacao.md) | Condições booleanas, filtros Narrow, ordenação e `limit` | [Aula 04](../notebooks/aula_04_filtros_ordenacao.ipynb) | [Desafio 04](../desafios/desafio_04_filtros_ordenacao.ipynb) |
+| [05 — Partições](05_particoes.md) | Tasks, Narrow/Wide, `repartition`, `coalesce`, `Exchange` e Shuffle | [Aula 05](../notebooks/aula_05_particoes.ipynb) | [Desafio 05](../desafios/desafio_05_particoes.ipynb) |
+| [06 — Agregações](06_agregacoes.md) | Agrupamentos, métricas condicionais, `countDistinct` e agregação parcial/final | [Aula 06](../notebooks/aula_06_agregacoes.ipynb) | [Desafio 06](../desafios/desafio_06_agregacoes.ipynb) |
+| [07 — Joins](07_joins.md) | Cardinalidade, integridade, `left_anti`, `left_semi`, chaves compostas e estratégias físicas | [Aula 07](../notebooks/aula_07_joins.ipynb) | [Desafio 07](../desafios/desafio_07_joins.ipynb) |
+| [08 — Parquet](08_parquet.md) | Escrita e releitura, Snappy, pruning, pushdown e Small Files | [Aula 08](../notebooks/aula_08_parquet.ipynb) | [Desafio 08](../desafios/desafio_08_parquet.ipynb) |
+| [09 — JDBC e PostgreSQL](09_jdbc_postgresql.md) | Leitura paralela, bounds, filtros na origem, `fetchsize`, `batchsize` e modos de escrita | [Aula 09](../notebooks/aula_09_jdbc.ipynb) | [Desafio 09](../desafios/desafio_09_jdbc.ipynb) |
+| [10 — Performance](10_performance.md) | Planos físicos, partições, Data Skew, joins, AQE, cache/persistência e Spark UI | [Aula 10](../notebooks/aula_10_performance.ipynb) | [Desafio 10](../desafios/desafio_10_performance.ipynb) |
 
-- [Mapa da arquitetura e trajetória](arquitetura_do_curso.md)
-- [Glossário técnico](glossario.md)
+## Como usar o caderno
 
-## Como estudar por este material
+Leia cada capítulo junto com o notebook da aula e consulte o desafio para acompanhar a aplicação dos conceitos. As saídas ajudam a relacionar as transformações aos resultados; as respostas pessoais registram o raciocínio desenvolvido durante os exercícios.
 
-Leia o capítulo junto com `notebooks/aula_XX_*.ipynb`, reproduza mentalmente o plano físico e, em seguida, consulte `desafios/desafio_XX_*.ipynb`. As seções **“O que foi feito no notebook”** e **“O que foi feito no desafio”** foram produzidas com base nos arquivos, não em modelos genéricos de exercícios.
+Na leitura dos planos, vale separar a estratégia escolhida de seu custo: `explain(True)` mostra os operadores, enquanto o Spark UI permite investigar Jobs, Stages, Tasks, Shuffle e Spill. Essa distinção orientou os estudos de performance no fim do curso.
 
-**Observação sobre a Aula 04:** a cópia de `desafio_04_filtros_ordenacao.ipynb` recebida contém zero células. O capítulo explica o conteúdo do notebook da aula e deixa essa limitação transparente.
+## Aula 10: o que os testes mostraram
 
-**Observação sobre a Aula 09:** também foi analisado o arquivo `notebooks/CREATE TABLE public.sql`, que contém a geração de 2 milhões de registros por `generate_series`, os testes de contagem e DDLs das tabelas de destino.
+A base sintética tinha **2 milhões de registros em oito partições**, com 90% das linhas no grupo zero. Ao usar `repartition(8, "grupo")`, uma partição recebeu **1.844.445 registros**. Sem a chave, `repartition(8)` distribuiu **250.000 por partição**. O número de partições permaneceu igual; a regra de distribuição mudou o equilíbrio. Uma operação posterior por chave ainda poderia concentrar novamente os dados.
 
-## Convenções
+Também foram comparados `repartition(4)` e `coalesce(4)` sobre a base uniforme. Ambos chegaram a 500 mil registros por partição, mas pelos caminhos distintos mostrados nos planos: redistribuição com `Exchange` no primeiro e redução com `Coalesce` no segundo.
 
-Os caminhos de arquivos dos exemplos são os utilizados no ambiente Docker do curso (`/workspace/...`). Nomes de colunas e DataFrames são preservados quando ajudam a acompanhar os notebooks. Exemplos com reticências ou esquemas desenhados são **ilustrações didáticas**, e não transcrições literais de `explain(True)`.
+Nos joins com a dimensão de dez grupos, BroadcastHashJoin e SortMergeJoin produziram os mesmos dois milhões de registros e as mesmas contagens por descrição. O broadcast evitou redistribuir a base principal por chave para o join; o SortMerge apresentou `Exchange` e `Sort` nos dois lados.
 
-Os números mostrados (por exemplo 4.834 ou 2.000.000) pertencem aos **datasets específicos da trilha**, não são garantias para outros ambientes ou versões do Spark.
+O AQE estava habilitado, com `AdaptiveSparkPlan` nos planos. Os testes de cache incluíram materialização por `count()`, reutilização com `InMemoryTableScan` e liberação com `unpersist()`. Cache pode evitar recomputações, mas não elimina os Shuffles exigidos pelas consultas seguintes; `persist()` permite escolher o nível de armazenamento.
 
-> A documentação se concentra em conceitos e mecanismos. Alterações de estrutura, thresholds e estratégias podem variar com Spark, AQE, estatísticas e configuração do cluster.
+## Desafio Final Integrador
+
+O [Desafio Final Integrador](../desafios/desafio_11/desafio_11_final.ipynb) concluiu o curso com um pipeline de marketplace fictício e dados sintéticos reproduzíveis. As cinco partes do [enunciado](../desafios/desafio_11/ENUNCIADO_DESAFIO_FINAL.md) abrangem ingestão e diagnóstico; qualidade, joins e agregações; Parquet; PostgreSQL/JDBC; e performance com Spark UI.
+
+Os CSVs usados no exercício estão no [pacote de dados do integrador](../datasets/desafio_final_integrador/dados_desafio_final.zip).
+
+O trabalho reuniu indicadores por mês, UF e categoria, armazenamento dos pedidos tratados e validações da persistência JDBC. A tabela de indicadores apresentou **54 registros** tanto no Spark quanto na leitura de retorno do PostgreSQL. O notebook detalha as verificações e os limites dos testes; o [índice dos desafios](../desafios/README.md) apresenta as entregas do curso.
+
+## Material complementar
+
+- [Glossário técnico](glossario.md): termos e distinções usados nos estudos.
+- [Mapa da arquitetura e trajetória](arquitetura_do_curso.md): relação entre os módulos e as etapas de processamento.
+- [Índice de estudos anterior](indice_de_estudos.md): organização anterior do caderno, mantida como registro.
+- [README do projeto](../README.md): apresentação do curso e instruções do ambiente.
+
+Algumas notas dos capítulos refletem revisões anteriores. O Desafio 04, por exemplo, está preenchido e seu plano já usa `idade >= 35`; referências à cópia vazia ou ao filtro antigo são históricas. As etapas descritas como futuras no mapa de arquitetura também foram concluídas. Os caminhos `/workspace/...` dos exemplos correspondem ao laboratório Docker.

@@ -8,8 +8,9 @@ O notebook utilizou `06_agregacoes/vendas.csv`. Uma agregação agrupada respond
 
 ```python
 df_agregado = (
-    df.groupBy("categoria")
-      .agg(F.sum("valor_total").alias("faturamento_total"))
+    df
+    .groupBy("categoria")
+    .agg(F.sum("valor_total").alias("faturamento_total"))
 )
 ```
 
@@ -60,12 +61,16 @@ A representação é didática; o plano real pode incluir operadores adicionais 
 No notebook foi produzido um resumo por `estado` com `sum`, `avg`, `count`, `max` e `min`:
 
 ```python
-df_agregado2 = df.groupBy("estado").agg(
-    F.sum("valor_total").alias("faturamento_total"),
-    F.avg("valor_total").alias("ticket_medio"),
-    F.count("*").alias("quantidade_vendas"),
-    F.max("valor_total").alias("maior_venda"),
-    F.min("valor_total").alias("menor_venda"),
+df_agregado2 = (
+    df
+    .groupBy("estado")
+    .agg(
+        F.sum("valor_total").alias("faturamento_total"),
+        F.avg("valor_total").alias("ticket_medio"),
+        F.count("*").alias("quantidade_vendas"),
+        F.max("valor_total").alias("maior_venda"),
+        F.min("valor_total").alias("menor_venda"),
+    )
 )
 ```
 

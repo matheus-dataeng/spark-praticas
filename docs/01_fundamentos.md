@@ -8,7 +8,11 @@ O ponto de entrada do notebook é uma `SparkSession`. Ela representa o contexto 
 
 ```python
 from pyspark.sql import SparkSession
-spark = SparkSession.builder.appName("aula_01_fundamentos").getOrCreate()
+spark = (
+    SparkSession.builder
+    .appName("Desafio01")
+    .getOrCreate()
+)
 
 df = spark.read.csv(
     "/workspace/datasets/01_fundamentos/clientes.csv",
@@ -68,14 +72,15 @@ O desafio retomou a leitura do mesmo CSV e construiu um fluxo próprio:
 
 ```python
 df_novo = (
-    df.select("cliente_id", "nome", "idade", "cidade", "renda_mensal", "ativo")
-      .withColumn("renda_anual", F.col("renda_mensal") * 12)
-      .withColumn(
-          "faixa_etaria",
-          F.when((F.col("idade") >= 18) & (F.col("idade") < 60), "Adulto")
-           .when(F.col("idade") >= 60, "Idoso")
-           .otherwise("Menor de idade"),
-      )
+    df
+    .select("cliente_id", "nome", "idade", "cidade", "renda_mensal", "ativo")
+    .withColumn("renda_anual", F.col("renda_mensal") * 12)
+    .withColumn(
+        "faixa_etaria",
+        F.when((F.col("idade") >= 18) & (F.col("idade") < 60), "Adulto")
+        .when(F.col("idade") >= 60, "Idoso")
+        .otherwise("Menor de idade"),
+    )
 )
 
 df_filtrado = df_novo.filter(F.col("ativo") & (F.col("idade") >= 30))

@@ -1,0 +1,22 @@
+DESAFIO FINAL APACHE SPARK
+
+Arquivos:
+- ENUNCIADO.md -> instruções completas do desafio A–E.
+- dados_desafio_final.zip -> três CSVs sintéticos prontos para uso, sem a solução do desafio.
+
+O ZIP acompanha o repositório em datasets/desafio_final_integrador/.
+Para extrair os dados, execute no terminal do container, a partir da raiz do repositório:
+
+  python -m zipfile -e datasets/desafio_final_integrador/dados_desafio_final.zip datasets/desafio_final_integrador
+
+Após a extração, os arquivos estarão em:
+- datasets/desafio_final_integrador/dados/clientes.csv
+- datasets/desafio_final_integrador/dados/pedidos.csv
+- datasets/desafio_final_integrador/dados/produtos.csv
+
+O conjunto contém 2 milhões de pedidos, 20 mil clientes e 300 produtos.
+
+Notebook de entrega: desafios/desafio_11/desafio_11_final.ipynb.
+
+Mantenha o ZIP versionado e a pasta datasets/desafio_final_integrador/dados/ no .gitignore.
+Não adicione os CSVs extraídos ao Git.
